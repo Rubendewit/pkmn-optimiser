@@ -1,0 +1,10 @@
+{
+  "name": "Bulbasaur",
+  "id": "001",
+  "moveset": [
+    "Synthesis",
+    "Sludge Bomb",
+    "Giga Drain",
+    "Body Slam"
+  ]
+}
