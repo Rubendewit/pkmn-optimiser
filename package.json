@@ -15,7 +15,8 @@
     "babel-register": "6.24.1",
     "body-parser": "1.17.2",
     "express": "4.15.3",
-    "lodash": "4.17.4"
+    "lodash": "4.17.4",
+    "oakdex-pokedex": "0.1.2"
   },
   "devDependencies": {
     "babel-eslint": "7.2.3",
