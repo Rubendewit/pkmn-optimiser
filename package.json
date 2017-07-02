@@ -4,6 +4,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "dev:stub": "nodemon index.js --api=stub",
     "lint": "eslint lib",
     "prepush": "npm run lint"
   },
@@ -16,6 +17,7 @@
     "body-parser": "1.17.2",
     "express": "4.15.3",
     "lodash": "4.17.4",
+    "minimist": "1.2.0",
     "oakdex-pokedex": "0.1.2",
     "request": "2.81.0"
   },
