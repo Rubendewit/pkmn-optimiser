@@ -1,4 +1,4 @@
-const charizard = require('./charizard');
+const charizard = require('./charizard-smogon');
 
 const getResponse = () => {
   return charizard;
