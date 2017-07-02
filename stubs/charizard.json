@@ -1,0 +1,819 @@
+{
+  "learnset": [
+    "Acrobatics",
+    "Aerial Ace",
+    "Aerial Ace",
+    "Aerial Ace",
+    "Air Cutter",
+    "Air Cutter",
+    "Air Cutter",
+    "Air Slash",
+    "Ancient Power",
+    "Ancient Power",
+    "Ancient Power",
+    "Attract",
+    "Attract",
+    "Attract",
+    "Beat Up",
+    "Beat Up",
+    "Beat Up",
+    "Belly Drum",
+    "Belly Drum",
+    "Belly Drum",
+    "Bide",
+    "Bite",
+    "Bite",
+    "Bite",
+    "Blast Burn",
+    "Blast Burn",
+    "Blast Burn",
+    "Block",
+    "Body Slam",
+    "Body Slam",
+    "Body Slam",
+    "Brick Break",
+    "Brick Break",
+    "Brick Break",
+    "Brutal Swing",
+    "Bulldoze",
+    "Captivate",
+    "Captivate",
+    "Captivate",
+    "Celebrate",
+    "Confide",
+    "Confide",
+    "Confide",
+    "Counter",
+    "Counter",
+    "Counter",
+    "Crunch",
+    "Crunch",
+    "Crunch",
+    "Cut",
+    "Cut",
+    "Cut",
+    "Defense Curl",
+    "Defense Curl",
+    "Defense Curl",
+    "Defog",
+    "Dig",
+    "Dig",
+    "Dig",
+    "Double-Edge",
+    "Double-Edge",
+    "Double-Edge",
+    "Double Team",
+    "Double Team",
+    "Double Team",
+    "Dragon Claw",
+    "Dragon Claw",
+    "Dragon Claw",
+    "Dragon Dance",
+    "Dragon Dance",
+    "Dragon Dance",
+    "Dragon Pulse",
+    "Dragon Pulse",
+    "Dragon Pulse",
+    "Dragon Rage",
+    "Dragon Rage",
+    "Dragon Rage",
+    "Dragon Rush",
+    "Dragon Rush",
+    "Dragon Rush",
+    "Dragon Tail",
+    "Dynamic Punch",
+    "Dynamic Punch",
+    "Dynamic Punch",
+    "Earthquake",
+    "Echoed Voice",
+    "Echoed Voice",
+    "Echoed Voice",
+    "Ember",
+    "Ember",
+    "Ember",
+    "Endure",
+    "Endure",
+    "Endure",
+    "Facade",
+    "Facade",
+    "Facade",
+    "False Swipe",
+    "Fire Blast",
+    "Fire Blast",
+    "Fire Blast",
+    "Fire Fang",
+    "Fire Fang",
+    "Fire Fang",
+    "Fire Pledge",
+    "Fire Pledge",
+    "Fire Pledge",
+    "Fire Punch",
+    "Fire Punch",
+    "Fire Punch",
+    "Fire Spin",
+    "Fire Spin",
+    "Fire Spin",
+    "Fissure",
+    "Flame Burst",
+    "Flame Burst",
+    "Flame Burst",
+    "Flame Charge",
+    "Flame Charge",
+    "Flame Charge",
+    "Flamethrower",
+    "Flamethrower",
+    "Flamethrower",
+    "Flare Blitz",
+    "Flare Blitz",
+    "Flare Blitz",
+    "Fling",
+    "Fling",
+    "Fling",
+    "Fly",
+    "Focus Blast",
+    "Focus Punch",
+    "Focus Punch",
+    "Focus Punch",
+    "Frustration",
+    "Frustration",
+    "Frustration",
+    "Fury Cutter",
+    "Fury Cutter",
+    "Fury Cutter",
+    "Giga Impact",
+    "Growl",
+    "Growl",
+    "Growl",
+    "Headbutt",
+    "Headbutt",
+    "Headbutt",
+    "Heat Wave",
+    "Heat Wave",
+    "Heat Wave",
+    "Hidden Power Bug",
+    "Hidden Power Bug",
+    "Hidden Power Bug",
+    "Hidden Power Dark",
+    "Hidden Power Dark",
+    "Hidden Power Dark",
+    "Hidden Power Dragon",
+    "Hidden Power Dragon",
+    "Hidden Power Dragon",
+    "Hidden Power Electric",
+    "Hidden Power Electric",
+    "Hidden Power Electric",
+    "Hidden Power Fighting",
+    "Hidden Power Fighting",
+    "Hidden Power Fighting",
+    "Hidden Power Fire",
+    "Hidden Power Fire",
+    "Hidden Power Fire",
+    "Hidden Power Flying",
+    "Hidden Power Flying",
+    "Hidden Power Flying",
+    "Hidden Power Ghost",
+    "Hidden Power Ghost",
+    "Hidden Power Ghost",
+    "Hidden Power Grass",
+    "Hidden Power Grass",
+    "Hidden Power Grass",
+    "Hidden Power Ground",
+    "Hidden Power Ground",
+    "Hidden Power Ground",
+    "Hidden Power Ice",
+    "Hidden Power Ice",
+    "Hidden Power Ice",
+    "Hidden Power Poison",
+    "Hidden Power Poison",
+    "Hidden Power Poison",
+    "Hidden Power Psychic",
+    "Hidden Power Psychic",
+    "Hidden Power Psychic",
+    "Hidden Power Rock",
+    "Hidden Power Rock",
+    "Hidden Power Rock",
+    "Hidden Power Steel",
+    "Hidden Power Steel",
+    "Hidden Power Steel",
+    "Hidden Power Water",
+    "Hidden Power Water",
+    "Hidden Power Water",
+    "Hold Hands",
+    "Hone Claws",
+    "Hone Claws",
+    "Hone Claws",
+    "Howl",
+    "Hyper Beam",
+    "Incinerate",
+    "Incinerate",
+    "Incinerate",
+    "Inferno",
+    "Inferno",
+    "Inferno",
+    "Iron Tail",
+    "Iron Tail",
+    "Iron Tail",
+    "Leer",
+    "Mega Kick",
+    "Mega Kick",
+    "Mega Kick",
+    "Mega Punch",
+    "Mega Punch",
+    "Mega Punch",
+    "Metal Claw",
+    "Metal Claw",
+    "Metal Claw",
+    "Mimic",
+    "Mimic",
+    "Mimic",
+    "Mud-Slap",
+    "Mud-Slap",
+    "Mud-Slap",
+    "Natural Gift",
+    "Natural Gift",
+    "Natural Gift",
+    "Ominous Wind",
+    "Outrage",
+    "Outrage",
+    "Outrage",
+    "Overheat",
+    "Overheat",
+    "Overheat",
+    "Power-Up Punch",
+    "Power-Up Punch",
+    "Power-Up Punch",
+    "Protect",
+    "Protect",
+    "Protect",
+    "Quick Attack",
+    "Rage",
+    "Rage",
+    "Rage",
+    "Reflect",
+    "Rest",
+    "Rest",
+    "Rest",
+    "Return",
+    "Return",
+    "Return",
+    "Roar",
+    "Rock Slide",
+    "Rock Slide",
+    "Rock Slide",
+    "Rock Smash",
+    "Rock Smash",
+    "Rock Smash",
+    "Rock Tomb",
+    "Rock Tomb",
+    "Rock Tomb",
+    "Roost",
+    "Round",
+    "Round",
+    "Round",
+    "Scary Face",
+    "Scary Face",
+    "Scary Face",
+    "Scratch",
+    "Scratch",
+    "Scratch",
+    "Secret Power",
+    "Secret Power",
+    "Secret Power",
+    "Seismic Toss",
+    "Seismic Toss",
+    "Seismic Toss",
+    "Shadow Claw",
+    "Shadow Claw",
+    "Shadow Claw",
+    "Skull Bash",
+    "Sky Drop",
+    "Slash",
+    "Slash",
+    "Slash",
+    "Sleep Talk",
+    "Sleep Talk",
+    "Sleep Talk",
+    "Smokescreen",
+    "Smokescreen",
+    "Smokescreen",
+    "Snore",
+    "Snore",
+    "Snore",
+    "Solar Beam",
+    "Steel Wing",
+    "Strength",
+    "Strength",
+    "Strength",
+    "Submission",
+    "Substitute",
+    "Substitute",
+    "Substitute",
+    "Sunny Day",
+    "Sunny Day",
+    "Sunny Day",
+    "Swagger",
+    "Swagger",
+    "Swagger",
+    "Swift",
+    "Swift",
+    "Swift",
+    "Swords Dance",
+    "Swords Dance",
+    "Swords Dance",
+    "Tailwind",
+    "Take Down",
+    "Thunder Punch",
+    "Thunder Punch",
+    "Thunder Punch",
+    "Toxic",
+    "Toxic",
+    "Toxic",
+    "Twister",
+    "Will-O-Wisp",
+    "Will-O-Wisp",
+    "Will-O-Wisp",
+    "Wing Attack",
+    "Work Up",
+    "Work Up",
+    "Work Up"
+  ],
+  "strategies": [
+    {
+      "format": "OU",
+      "overview": "<p>Charizard has two Mega Evolutions that play different roles. Mega Charizard Y is able to use Drought and its high Special Attack stat to become a fierce wallbreaker, while Mega Charizard X uses Dragon Dance in conjunction with its fantastic offensive typing to sweep. Unfortunately, Charizard is very weak to Stealth Rock. Charizard's base forme and Mega Charizard Y take 50% damage from Stealth Rock, while Mega Charizard X takes 25% damage, limiting its ability to set up and sweep. Additionally, Mega Charizard Y struggles to break through Toxapex and Chansey and is outsped by many common offensive Pokemon, allowing it to be easily revenge killed. Mega Charizard X has difficulty with the prevalence of its checks, such as Landorus-T, Toxapex, and Tapu Fini, in the metagame. While it can break through these checks, it typically wears itself out in doing so. In addition, the popularity of Choice Scarf users above base 100 Speed further reduces Mega Charizard X's effectiveness, as it can typically be revenge killed after setting up.</p>\n",
+      "comments": "<h1>Other Options</h1>\n<p>Mega Charizard Y could use Earthquake over Focus Blast to hit Heatran and Tyranitar without having to risk missing Focus Blast. It could also use Hidden Power Electric to surprise Mantine and Pelipper. Luring Pelipper is especially useful for teammates such as Sand Rush Excadrill that rely on weather. However, the loss of Roost or coverage can be detrimental. Tailwind can be used over Roost to allow Mega Charizard Y to obliterate offensive teams. However, against such teams, Charizard can find difficulty in setting up the move without fainting. Mega Charizard X can run a bulkier set with Will-O-Wisp, which lures Landorus-T and allows it to contribute to defensive cores. However, it struggles to find a place in the current metagame. Swords Dance could be used to turn Mega Charizard X into a dedicated wallbreaker. It could also be used in conjunction with Tailwind to allow Mega Charizard X to take on both offensive and defensive teams. However, this set is worn down very quickly and is typically only suited for early-game wallbreaking.</p>\n<h1>Checks and Counters</h1>\n<p><strong>Stealth Rock</strong>: Stealth Rock deals massive damage to all formes of Charizard. This limits Mega Charizard Y's opportunities to switch in to wallbreak and limits Mega Charizard X's ability to set up or use Flare Blitz.</p>\n<p><strong>Scouting</strong>: There are very few Pokemon able to efficiently handle both Mega Charizard X and Mega Charizard Y. However, once the specific forme of Charizard is determined, its counters can be preserved. Analyzing Charizard's team composition can potentially reveal which forme of Charizard is being run—Pursuit support and Tapu Fini are usually only run with Mega Charizard Y, while wallbreakers typically indicate Mega Charizard X.</p>\n<p><strong>Revenge Killers</strong>: Revenge killers force out both formes of Charizard. Choice Scarf users above base 100 Speed, such as Garchomp and Keldeo, are particularly threatening, as they can revenge kill a +1 Mega Charizard X.</p>\n<p><strong>Defensive Water-types</strong>: Water-types like Tapu Fini and Toxapex can handle Mega Charizard X. Toxapex can also handle Mega Charizard Y, making it one of the only Pokemon able to take on both formes of Charizard.</p>\n<p><strong>Dragon-types</strong>: Most Dragon-types can switch into one hit from Mega Charizard Y and proceed to force it out. Choice Scarf-wielding Dragon-types, like Garchomp, can also revenge kill or force out Mega Charizard X.</p>\n<p><strong>Chansey</strong>: Chansey is able to take all of Mega Charizard Y's hits and set up Stealth Rock or spread poison with Toxic.</p>\n<p><strong>Heatran</strong>: Heatran is able to take boosted hits from Mega Charizard X unless it is carrying Earthquake.</p>\n<p><strong>Bulky Ground-types</strong>: Defensive Ground-types like Landorus-T can handle Mega Charizard X, though they will typically sustain massive damage from Flare Blitz.</p>\n",
+      "movesets": [
+        {
+          "name": "Drought Wallbreaker Y",
+          "description": "<h1>Moves</h1>\n<p>Fire Blast is Mega Charizard Y's main STAB attack. After the sun boost from Drought, Fire Blast 2HKOes nearly every neutral target as well as offensive Pokemon that resist it. Flamethrower can be used over Fire Blast for improved accuracy. However, the loss of power causes Charizard to miss 2HKOs on Garchomp and Mew. Solar Beam becomes a one-turn move in the sun, letting Charizard beat the Water- and Rock-types that resist its Fire-type STAB moves. Focus Blast hits Tyranitar, which overrides Charizard's sun and halves the power of Solar Beam, as well as Heatran, which otherwise walls Charizard. If Charizard's team has solid answers to Tyranitar and Heatran, such as trapping from Dugtrio, Hidden Power Ice can be used instead to surprise Dragon-types such as Garchomp, Zygarde, and Dragonite. Roost gives Charizard longevity, letting it recover off Stealth Rock damage.</p>\n<h1>Set Details</h1>\n<p>Charizardite Y is required to Mega Evolve into Mega Charizard Y, giving Charizard a large Special Attack boost and Drought. A Timid nature is used to outspeed Tapu Lele, Kyurem-B, Zygarde, and Mimikyu as well as Speed tie with other base 100s such as Mega Medicham. Modest can be used with Flamethrower to mediate the trade-off between power and accuracy or with Fire Blast to allow Mega Charizard Y to 2HKO offensive Zygarde. However, using a Timid nature to outspeed the aforementioned threats is typically preferred. 252 Speed EVs allows Charizard to reach the previously mentioned Speed benchmarks. 252 Special Attack EVs maximize Charizard's damage output, enabling it to operate as a wallbreaker. Blaze is used as Charizard's pre-Mega ability to avoid taking damage from opposing sun.</p>\n<h1>Usage Tips</h1>\n<p>Use Charizard to wallbreak early-game. By softening opposing walls, Charizard will give its teammates more opportunities to sweep late-game. Very few Pokemon are able to safely switch into Mega Charizard Y. Make efforts to safely bring Charizard in against Pokemon it can force out or otherwise KO to put pressure on the opposing team. If possible, remove Stealth Rock or prevent it from being set up before bringing in Charizard to avoid having it lose half of its health.</p>\n<h1>Team Options</h1>\n<p>Entry hazard removal is important to keep Charizard healthy. Tapu Fini, Mew, and Latios can use Defog, while Excadrill can use Rapid Spin. Dugtrio can remove Mega Charizard Y's best checks; it traps and removes Chansey and Toxapex, and it can also trap Tyranitar and Heatran so Charizard doesn't have to risk missing Focus Blast. Pursuit support from the likes of Weavile and Choice Band Tyranitar is nice to pick off Latios. These Pokemon can also pressure Chansey. Since many offensive Pokemon, such as Tapu Koko and Greninja, are able to revenge kill Mega Charizard Y, switch-ins to these Pokemon are required. Pivots like Assault Vest Tangrowth can make good answers. Volt Switch and U-turn users can bring Charizard in safely. Tapu Koko and Greninja fill these roles well, as they tend to force in defensive Grass-types that Charizard can take advantage of. Late-game sweepers appreciate Mega Charizard Y's ability to wallbreak. Shift Gear Magearna, Ash-Greninja, and Porygon-Z make good partners in this regard.</p>\n",
+          "abilities": [
+            "Blaze"
+          ],
+          "items": [
+            "Charizardite Y"
+          ],
+          "moveslots": [
+            [
+              "Fire Blast",
+              "Flamethrower"
+            ],
+            [
+              "Solar Beam"
+            ],
+            [
+              "Focus Blast",
+              "Hidden Power Ice"
+            ],
+            [
+              "Roost"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 0,
+              "atk": 0,
+              "def": 4,
+              "spa": 252,
+              "spd": 0,
+              "spe": 252
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Timid"
+          ]
+        },
+        {
+          "name": "Dragon Dance X",
+          "description": "<h1>Moves</h1>\n<p>Dragon Dance allows Charizard to boost its Attack and Speed simultaneously. Dragon Claw is a powerful STAB attack that is boosted by Tough Claws. Flare Blitz is a nuke able to take on Steel-types, which resist Dragon Claw, as well as most of the Fairy-types in the metagame. Roost improves Charizard's longevity, eases setup, and allows it to stay out of range of revenge killers. Thunder Punch can be used to hit Tapu Fini and Toxapex for solid damage. Earthquake is another option to deal great damage to Tyranitar and Toxapex as well as OHKO Heatran.</p>\n<h1>Set Details</h1>\n<p>Charizardite X is required to allow Charizard to Mega Evolve into Mega Charizard X. 252 Speed EVs are used with a Jolly nature to allow Charizard to outspeed Tapu Lele and Speed tie with other base 100s such as Mega Medicham. 252 Attack EVs are used to maximize Charizard's damage output. Blaze is used as the pre-Mega ability to avoid taking damage from sun.</p>\n<h1>Usage Tips</h1>\n<p>Remove Stealth Rock or prevent it from being set up before bringing in Charizard to ease its ability to set up. Use Dragon Dance on Pokemon Charizard checks, such as Tapu Koko and Scizor. Avoid taking too much damage while setting up, as this will prevent Charizard from freely using Flare Blitz and could make it vulnerable to revenge killing. Also, avoid status while setting up, as paralysis allows Charizard to be revenge killed easily, while poison quickly wears it down. Charizard can be used to soften walls early-game, easing its sweep late-game. However, do not let Charizard become too weakened early-game, or it will be unable to set up later without Healing Wish support.</p>\n<h1>Team Options</h1>\n<p>Entry hazard removal is crucial; Mew, Zapdos, and Excadrill make good partners for this. Do not use Tapu Fini to Defog, as Misty Terrain weakens Mega Charizard X's Dragon STAB moves versus grounded targets. Answers to Landorus-T are necessary, whether this comes in the form of a lure such as Waterium Z Scolipede or a defensive counter such as Skarmory. Pokemon able to lure Tapu Fini, such as Grassium Z Heatran and Thunderbolt Latios, are useful partners. Wallbreakers like Hoopa-U and Tapu Lele are useful to soften the opposing team for Mega Charizard X's sweep. Tapu Lele's Psychic Terrain also protects Mega Charizard X from priority attacks. Unless Charizard is running Earthquake, it needs help to take on Heatran. Dugtrio can trap it, while Garchomp, Keldeo, Greninja, and Landorus-T can all threaten it and otherwise weaken the opposing team. Lures like Surf Latios can also be used. A Healing Wish user such as Jirachi can allow Charizard to recklessly wallbreak with Flare Blitz early-game and safely restore its health for a late-game sweep.</p>\n",
+          "abilities": [
+            "Blaze"
+          ],
+          "items": [
+            "Charizardite X"
+          ],
+          "moveslots": [
+            [
+              "Dragon Dance"
+            ],
+            [
+              "Dragon Claw"
+            ],
+            [
+              "Flare Blitz"
+            ],
+            [
+              "Roost",
+              "Thunder Punch"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 0,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Jolly"
+          ]
+        }
+      ]
+    },
+    {
+      "format": "Doubles",
+      "overview": "<p>In Doubles OU, Mega Charizard Y finds itself to be a powerful, metagame-defining presence as one of the top three Mega Pokemon in the metagame and one of the most threatening Pokemon overall. Having access to Drought is Mega Charizard Y's key attribute that serves as the foundation of its success as a Pokemon. Drought complements its excellent base 159 Special Attack by boosting the power of its Fire-type moves by 50%, which lets Mega Charizard Y's Heat Wave tear through any opposing Pokemon that does not resist it. Drought also allows Mega Charizard Y to serve as a reliable weather supporter for its teammates and hinder opposing weather teams. However, Mega Charizard Y struggles against common Pokemon such as Mega Salamence, Tapu Koko, Landorus-T, and Heatran and suffers from the frequency of opposing weather setters such as Politoed, Pelipper, and Tyranitar. Charizard also possesses a very mediocre base 100 Speed, meaning that it is heavily reliant on speed control in order to truly shine. Charizard also possesses a poor defensive typing that leaves it weak to very common Electric-, Rock-, and Water-type moves (though Drought helps mitigate the Water-type weakness), and being unable to take neutral hits particularly well makes Charizard a Pokemon that requires some level of board control to bring out safely.</p>\n<p>Overall, Mega Charizard Y is still a fantastic Pokemon in the DOU metagame that offers a wide range of team compositions it works well in and a combination of power and utility that few Pokemon can boast about rivaling. Mega Charizard Y is capable of working on Trick Room compositions and Tailwind teams, and everything from balanced to hyper offensive teams, and works well with all the common Pokemon that find themselves on those team structures. Though Mega Charizard Y does have a few exploitable weaknesses and does struggle against a few Pokemon, those shortcomings can be overcome with very little support.</p>\n",
+      "comments": "<h1>Other Options</h1>\n<p>Mega Charizard Y is a capable option on Trick Room teams; a spread of 232 HP / 72 Def / 144 SpA / 60 SpD with a Modest nature allows it to survive a spread-reduced Rock Slide from a Jolly Landorus-T or an Electric Terrain-boosted Thunderbolt from a non-Life Orb Tapu Koko, with the remainder in Special Attack. Hidden Power Ice is a nice option in order to KO conventional checks to Charizard such as Salamence and Zygarde. Flamethrower and Fire Blast are alternatives to Overheat, allowing Charizard to get around Wide Guard, as well as avoid the -2 Special Attack drop from Overheat. Focus Blast allows Mega Charizard Y to beat Tyranitar and Heatran, though the shaky accuracy makes it unreliable, and it is usually better to allow a teammate to deal with them. Roost is an option on bulkier Charizard sets that greatly extend its longevity, though it does temporarily remove Charizard's Ground-type immunity. Will-O-Wisp is a possible option that allows Charizard to slow down physical attackers, though there is almost always a better choice than Charizard for the role.</p>\n<h1>Checks and Counters</h1>\n<p><strong>Heatran</strong>: If Charizard is not running Hidden Power Ground, Heatran is virtually untouchable by it.</p>\n<p><strong>Dragon-types</strong>: Dragon-type Pokemon such as Salamence, Zygarde, and Hydreigon can all come in on Charizard's STAB moves and deal massive damage to it with minimal worry.</p>\n<p><strong>Opposing Weather</strong>: Politoed and Pelipper are complete neutralizing forces against Mega Charizard Y, being able to weaken its Fire-type moves and not having to worry about Solar Beam. Tyranitar is able to easily switch in on Charizard and can OHKO it with ease or force it out.</p>\n<p><strong>Faster Pokemon</strong>: Pokemon such as Tapu Koko, Deoxys-A, Terrakion, and Choice Scarf Landorus-T are all able to outrun Charizard and deal massive damage to or OHKO it. Weather-based attackers such as Kingdra, Ludicolo, and Excadrill are all able to outrun and OHKO Charizard as well in rain for the former two and in sand for the latter.</p>\n<p><strong>Paralysis, Tailwind, and Trick Room</strong>: Though Mega Charizard Y can find itself being used on Trick Room teams, faster sets find themselves having to be more cautious when playing against Trick Room, as it allows normally slower foes such as Diancie and Araquanid to outrun Charizard and deal massive damage to, if not outright OHKO it. Tailwind works in the same fashion, allowing Pokemon such as non-Choice Scarf Landorus-T to outrun and OHKO Charizard. Though relatively uncommon outside of Rotom-W and the rare Thundurus, Thunder Wave severely hinders Charizard by allowing more Pokemon to move before it and deal significant damage to it.</p>\n<p><strong>Stealth Rock and Wide Guard</strong>: Stealth Rock, though uncommon in Doubles OU, severely cuts short Charizard's staying power due to taking 50% of its HP upon it switching in. Pokemon such as Landorus-T and Tyranitar, which can force Charizard out, can take advantage of the free turn to set Stealth Rock and reduce the ease with which Charizard can come back in. Wide Guard prevents Charizard from being able to freely use Heat Wave, which is what it will be looking to use most turns. Araquanid is a common Wide Guard user and can also threaten Charizard with Liquidation.</p>\n",
+      "movesets": [
+        {
+          "name": "Sun Attacker",
+          "description": "<h1>Moves</h1>\n<p>Heat Wave provides Mega Charizard Y with a powerful STAB attack, and due to being a sun-boosted spread move, it allows Mega Charizard Y to quickly punch holes through both opposing Pokemon. Solar Beam is a primary coverage option that allows Mega Charizard Y to deal super effective damage to opposing Rock- and Water-type Pokemon that resist Heat Wave. Tailwind can be used to provide Charizard's team with a reliable form of speed control and outrun the opposing team, helping cover up Charizard's own middling Speed. Overheat can be used as a powerful &quot;nuke&quot; option that deals heavy damage even to resistant foes. Hidden Power Ground is used primarily to beat opposing Heatran, which otherwise walls Charizard. Lastly, Protect allows Mega Charizard Y to scout for moves, block Fake Out and status inflictions, and stall out opposing field conditions.</p>\n<h1>Set Details</h1>\n<p>The EV spread is simple; maximum Special Attack and Speed investment allows Charizard to take full advantage of its offensive capabilities. The remaining 4 EVs are a dump stat and can be put in Special Defense just as well, though it is important to remember to not put them in HP, as keeping Charizard at an odd HP stat allows it to come in on Stealth Rock twice if needed. A Timid nature is chosen in order to allow Charizard to outrun as many opposing Pokemon as possible, such as non-Choice Scarf Tapu Lele and Landorus-T, though Charizard can also use Modest in order to hit slightly harder if outrunning the aforementioned foes is not a priority. Using a Modest nature also enables Charizard to use bulkier spreads, such as 248 HP / 64 Def / 88 SpA / 108 Spe, which allows Charizard to outrun base 130 Speed Pokemon at -1 and survive a Jolly Landorus-T's spread-reduced Rock Slide.</p>\n<h1>Usage Tips</h1>\n<p>Mega Charizard Y is a fairly simple Pokemon to use, though it does require some measure of proper board positioning to use optimally. Once Charizard is in play, the goal is to use Heat Wave as many times as possible before Charizard is forced out, as sun-boosted Heat Wave takes large chunks of HP out of both opposing Pokemon, assuming they are not resistant. Coverage options are used when needed, though Solar Beam should be used carefully if the opposing team has a rain or sand setter in the back. Overheat should only be used when something needs to be KOed immediately, or if you are okay with switching Charizard out immediately afterwards. During weather wars, it is a generally good idea to keep Charizard in the back to switch in once the opposing team has already set their weather, as Charizard can then come in to negate it.</p>\n<h1>Team Options</h1>\n<p>Mega Charizard Y is a Pokemon that finds itself being a viable option on a wide range of teams; however, in order to truly shine, it almost always requires Landorus-T and a Steel-type Pokemon on its team. Landorus-T is an indispensable partner due to Intimidate helping bolster Charizard's longevity, its immunity to Electric-type moves, and its ability to quickly and efficiently dispose of Electric- and Rock-type Pokemon and Heatran. Choice Scarf variants are able to naturally deal with Deoxys-A and Tapu Koko, two Pokemon that are very threatening to Charizard due to their ability to outrun and OHKO it; non-Choice Scarf variants work great with Tailwind Charizard, as they can quickly deal massive amounts of spread damage to the opposing team together. In return, Landorus-T greatly benefits from Charizard being able to easily take out Grass- and Ice-type Pokemon, which otherwise work well against Landorus-T. The Steel-type partner is needed in order to have a reliable method of switching in on Rock-type moves and typically is Heatran, which combines with Charizard to make a very threatening sun-spam pair, or Aegislash, which provides a reliable answer to Rock-type Pokemon, is a useful answer to most forms of opposing speed control, and can use Wide Guard if needed.</p>\n<p>The remaining three team slots offer a much greater degree of flexibility when building with Mega Charizard Y in mind, though it is advisable to keep certain things in mind. Mega Charizard Y struggles against Salamence, which makes Pokemon such as Tapu Koko and Choice Scarf Tapu Lele good options. They also provide useful resistances, with Tapu Koko resisting Electric-type moves and both having an immunity to Dragon-type moves. Zapdos and Milotic are interesting options for this role as well, each bringing unique attributes that work well when used with Charizard. Zapdos is able to switch in safely against most Salamence variants and threaten it with Hidden Power Ice, and it is also able to use Tailwind to provide speed control for the team. Milotic has access to Competitive, which makes it very threatening to not only Salamence but also Landorus-T, which is a common check to Mega Charizard Y. Milotic also has excellent staying power due to Recover, can slow down the opposing team thanks to Icy Wind, and is an effective Heatran counter. Tapu Bulu is an interesting option as a Charizard partner, as it simplifies the matchup against rain and sand compositions, though it creates a more difficult board position game against Heatran. Hoopa-U is a good option, being able to work as both a Trick Room setter and a 3 attacks offensive partner. Lastly, Venusaur is a partner that works well due to Chlorophyll doubling Venusaur's Speed in the sun and Charizard and Venusaur having good offensive and defensive synergy with each other.</p>\n",
+          "abilities": [
+            "Blaze"
+          ],
+          "items": [
+            "Charizardite Y"
+          ],
+          "moveslots": [
+            [
+              "Heat Wave"
+            ],
+            [
+              "Solar Beam"
+            ],
+            [
+              "Tailwind",
+              "Overheat",
+              "Hidden Power Ground"
+            ],
+            [
+              "Protect"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 0,
+              "atk": 0,
+              "def": 4,
+              "spa": 252,
+              "spd": 0,
+              "spe": 252
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Timid",
+            "Modest"
+          ]
+        }
+      ]
+    },
+    {
+      "format": "Battle Spot Singles",
+      "overview": "<p>Charizard is very unpredictable due to its two Mega Evolutions, with X being a physical sweeper and Y being a special wallbreaker. On their own, these two Mega Evolutions provide massive offensive pressure, but when combined, they make Charizard a top-tier threat that can decide games based on its unpredictability. However, its common Speed tier and weakness to Stealth Rock and Garchomp keep it in check.</p>\n<p>Below are some sample sets. These sets are likely to be standard, but they will be expanded upon and updated as the metagame progresses.</p>\n",
+      "comments": "",
+      "movesets": [
+        {
+          "name": "Dragon Dance",
+          "description": "<ul>\n<li>This is the standard Dragon Dance set, letting Mega Charizard X outspeed most threats in the metagame.</li>\n<li>Its STAB moves are very powerful, with the last move being chosen depending on what threats you want to cover or, in the case of Roost, set up on.</li>\n<li>Earthquake hits Heatran, Dragon Claw gives it a Dragon-type STAB move that doesn't lock it in, and Thunder Punch deals massive damage to Azumarill and Tapu Fini.</li>\n<li>Jolly lets Charizard outspeed Choice Scarf Tapu Lele after a Dragon Dance.</li>\n<li>Save this Pokemon for late-game, since Fairy-types and Fire-resistant foes are a big barrier to it sweeping. Outrage in particular should be saved for late-game due to Fairy-types.</li>\n<li>Consider Pokemon that help deal with Garchomp, Suicuine, Tapu Fini, and Mega Slowbro.</li>\n</ul>\n",
+          "abilities": [
+            "Blaze"
+          ],
+          "items": [
+            "Charizardite X"
+          ],
+          "moveslots": [
+            [
+              "Dragon Dance"
+            ],
+            [
+              "Flare Blitz"
+            ],
+            [
+              "Outrage"
+            ],
+            [
+              "Earthquake",
+              "Roost",
+              "Thunder Punch",
+              "Dragon Claw"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 0,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Jolly"
+          ]
+        },
+        {
+          "name": "Versatile Sweeper",
+          "description": "<ul>\n<li>Swords Dance and Flame Charge make Mega Charizard X into a more effective wall breaker, with its STAB attacks 2HKOing even resistant foes.</li>\n<li>Adamant maximizes Mega Charizard X's power, but Jolly ensures it outspeeds Timid Tapu Lele.</li>\n<li>Its STAB moves are fairly risky, so you can replace Flare Blitz with Earthquake to reliably handle Heatran and Tapu Koko.</li>\n<li>As with most sweepers, it's best to save Mega Charizard X for late-game, especially since it relies on Outrage and Flare Blitz.</li>\n<li>You will often choose to set up Flame Charge or Swords Dance depending on the makeup of your opponent's team. Flame Charge works best against offensive teams, while Swords Dance works best against slower, bulkier teams.</li>\n<li>Stealth Rock is a good idea to ensure Mega Charizard X blasts through walls.</li>\n<li>You'll also need a Garchomp and Mega Salamence check so you won't be forced to use Outrage often.</li>\n<li>Finally, consider Pokemon that can restore Charizard's health, such as users of Lunar Dance, Healing Wish, Z-Parting Shot, or Z-Memento.</li>\n</ul>\n",
+          "abilities": [
+            "Blaze"
+          ],
+          "items": [
+            "Charizardite X"
+          ],
+          "moveslots": [
+            [
+              "Swords Dance"
+            ],
+            [
+              "Flame Charge"
+            ],
+            [
+              "Outrage"
+            ],
+            [
+              "Flare Blitz",
+              "Earthquake"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 0,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Adamant",
+            "Jolly"
+          ]
+        },
+        {
+          "name": "Drought Attacker",
+          "description": "<ul>\n<li>Mega Charizard Y is a powerful wallbreaker thanks to Drought. Choose between reliability and power with Flamethrower and Fire Blast, and take advantage of the sun with Solar Beam to slam Water-types. The rest of the moves are coverage that depends on what your team needs.</li>\n<li>Timid ensures Charizard outspeeds Tapu Lele, but Modest brings plenty of power to the table.</li>\n<li>Mega Charizard Y works best early-game, especially if you see bulky Stealth Rock Pokemon such as Hippowdon and Swampert in Team Preview, so it can defeat them and avoid getting hit by Stealth Rock.</li>\n<li>Bring checks to popular Electric-types such as Tapu Koko, Thundurus, and Rotom-H. Also consider a Pokemon to defeat specially defensive Alolan Marowak.</li>\n</ul>\n",
+          "abilities": [
+            "Blaze",
+            "Solar Power"
+          ],
+          "items": [
+            "Charizardite Y"
+          ],
+          "moveslots": [
+            [
+              "Flamethrower",
+              "Fire Blast"
+            ],
+            [
+              "Solar Beam"
+            ],
+            [
+              "Focus Blast"
+            ],
+            [
+              "Overheat",
+              "Hidden Power Ice",
+              "Earthquake",
+              "Roost",
+              "Flame Charge"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 0,
+              "atk": 0,
+              "def": 4,
+              "spa": 252,
+              "spd": 0,
+              "spe": 252
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Timid",
+            "Modest"
+          ]
+        },
+        {
+          "name": "Defensive",
+          "description": "<ul>\n<li>This Mega Charizard X surprises foes with its good bulk and utility with Will-O-Wisp. It acts as a good check to threats such as Mimikyu, Kartana, and Tapu Bulu. Earthquake ensures Nihilego and Heatran can't switch in for free, but Flame Charge lets Mega Charizard X outspeed threats such as Garchomp.</li>\n<li>The EVs and nature allow Mega Charizard X to outspeed Jolly Mimikyu and take less damage from Stealth Rock.</li>\n<li>Use Will-O-Wisp as much as possible to catch Mega Charizard X's checks off guard, such as Hippowdon, Landorus-T, and Azumarill.</li>\n<li>Consider carrying Pokemon that have an easier time with Pokemon that Mega Charizard X lures and burns. You'll also want Pokemon that can deal with bulky setup Pokemon that don't care about status moves such as Suicune and Tapu Fini.</li>\n</ul>\n",
+          "abilities": [
+            "Blaze"
+          ],
+          "items": [
+            "Charizardite X"
+          ],
+          "moveslots": [
+            [
+              "Will-O-Wisp"
+            ],
+            [
+              "Roost"
+            ],
+            [
+              "Dragon Claw"
+            ],
+            [
+              "Earthquake",
+              "Flame Charge"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 164,
+              "atk": 0,
+              "def": 116,
+              "spa": 0,
+              "spd": 0,
+              "spe": 228
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Jolly"
+          ]
+        }
+      ]
+    },
+    {
+      "format": "Battle Spot Doubles",
+      "overview": "<p>Mega Charizard Y is a dangerous spread attacker, dealing massive damage with Sun-boosted Heat Waves. Unlike most Fire-types, Water-types have trouble with Mega Charizard Y because of Drought and Solar Beam. However, Mega Charizard Y heavily relies on the sun to deal damage, and it has an unfortunate weakness to Electric-type attacks, and a 4x weakness to the ever common Rock Slide.</p>\n<p>Below is a sample set. This set is likely to be the standard, but it will be expanded upon and updated as the metagame progresses.</p>\n",
+      "comments": "",
+      "movesets": [
+        {
+          "name": "Drought Attacker",
+          "description": "<ul>\n<li>\n<p>Heat Wave is Mega Charizard Y's powerful spread attack, while Solar Beam has no charge up turn under the sunlight, letting Mega Charizard Y slam Water-types like Rotom-W and Milotic.</p>\n</li>\n<li>\n<p>Overheat is insanely powerful, OHKOing threats such as Tapu Lele and fast Assault Vest Landorus-T, though at the cost of halving Special Attack. Flamethrower can be used if Mega Charizard Y just needs to OHKO regular Landorus-T.</p>\n</li>\n<li>\n<p>Hidden Power Ground is Mega Charizard Y's best way around Heatran, 2HKOing bulky varients at worst, and OHKOing fast offensive Heatran.</p>\n</li>\n<li>\n<p>Modest gives Mega Charizard Y the most power, but Timid can be used to outspeed Jolly Landorus-T and Timid Tapu Lele.</p>\n</li>\n<li>\n<p>If Politoed, Pelipper, Tyranitar, or Alolan Ninetales are seen in team preview, consider holding off on Mega Evolving right away, since if these switch in at the right time, Mega Charizard Y becomes much easier to check, especially if Pelipper or Politoed bring the rain.</p>\n</li>\n<li>\n<p>Rock Slide is a serious problem for Mega Charizard Y. Consider Intimidate support to help it take weaker ones at least once. Wide Guard support can work well too, letting Mega Charizard Y stay in the field in the face of Rock Slide.</p>\n</li>\n<li>\n<p>Mega Charizard Y also hates Electric-type Pokemon such as Tapu Koko and Thundurus. While Lightning Rod support can be helpful, it doesn't stop Discharge. Consider brining Electric-type resistances to switch into.</p>\n</li>\n<li>\n<p>Mega Charizard Y does great with Pokemon that use Earthquake thanks to its Ground-type immunity, and it also helps out against Water-types thanks to Drought and Solar Beam.</p>\n</li>\n</ul>\n",
+          "abilities": [
+            "Blaze"
+          ],
+          "items": [
+            "Charizardite Y"
+          ],
+          "moveslots": [
+            [
+              "Heat Wave"
+            ],
+            [
+              "Solar Beam"
+            ],
+            [
+              "Overheat",
+              "Hidden Power Ground"
+            ],
+            [
+              "Protect"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 0,
+              "atk": 0,
+              "def": 4,
+              "spa": 252,
+              "spd": 0,
+              "spe": 252
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Modest",
+            "Timid"
+          ]
+        }
+      ]
+    },
+    {
+      "format": "Monotype",
+      "overview": "<h1>Fire</h1>\n<ul>\n<li>Charizard establishes its place on Fire teams with its ability to fill the role of a powerful late-game sweeper or an incredible wallbreaker.</li>\n<li>Mega Charizard X fills the former role through its access to Dragon Dance, which makes it one of the deadliest threats in the metagame.</li>\n<li>This is only heightened by its fantastic ability in Tough Claws, which increases the power of contact moves like Flare Blitz and Outrage by 1.3x.</li>\n<li>Mega Charizard X also brings great bulk and a neutrality to Water-type moves, both of which Fire teams often lack, allowing it to set up against a number of different Pokemon.</li>\n<li>Additionally, Mega Charizard X's Dragon typing allows it to help deal with Dragon-type teams that Fire would normally struggle against.</li>\n<li>To complement this, Mega Charizard X has access to a wide range of moves such as a recovery move in Roost as well as an offensive move in Earthquake, which makes it hard to wall.</li>\n<li>However, Mega Charizard X still suffers from a dreadful 4x Stealth Rock weakness before it Mega Evolves and can be worn down easily by it in conjunction with Flare Blitz recoil.</li>\n<li>Furthermore, status conditions like paralysis and poison can be sweep ending for it.</li>\n<li>Mega Charizard Y is one of the best wallbreakers in the metagame because of its fantastic Special Attack and ability.</li>\n<li>Its ability Drought is a godsend for every Fire team because it increases the power of Fire-type moves and allows the use of Solar Beam without wasting a turn while weakening the power of Water-type moves.</li>\n<li>To go with this, Mega Charizard Y has a wide movepool including Focus Blast and Solar Beam, which let it threaten most of the metagame.</li>\n<li>Its offensive power is supported by its decent base 100 Speed tier, which lets it outspeed a majority of the metagame.</li>\n<li>Just like its counterpart, Mega Charizard Y also has great special bulk, which lets it survive most special moves; in addition to this, its Flying sub-typing brings a much-needed Ground immunity to the team that Mega Charizard X does not.</li>\n<li>Defensively, Mega Charizard Y has access to a great support move in Roost, which lets it heal 50% of its health back.</li>\n<li>Unfortunately, Mega Charizard Y also suffers from the dreaded 4x weakness to Stealth Rock.</li>\n<li>Mega Charizard Y is often reliant on sun being up to wallbreak with its Fire-type moves and is much weaker without it.</li>\n<li>Despite having great special bulk, it has sub-par Defense, which makes it prone to being revenge killed by priority moves and faster physical attackers.</li>\n</ul>\n<h1>Flying</h1>\n<p>Mega Charizard Y is an exceptional wallbreaker and is among the strongest wallbreakers available to Flying-type teams. Its ability, Drought, boosts Fire-type moves, allowing its Fire-type STAB attacks to OHKO or 2HKO almost every neutral target. Drought also has the bonus of halving the power of Water-type attacks and allowing Charizard to use Solar Beam, improving its matchup against Water- and Rock-types such as Azumarill, Manaphy, and Alolan Golem. Access to Focus Blast prevents Mega Charizard Y from being walled by Heatran and Tyranitar, some of the only would-be defensive counters available to their respective teams. Roost provides Charizard with longevity, allowing it to pressure the opposing team as a wallbreaker through both the early- and mid-game. Mega Charizard Y supports its team through an Ice neutrality and good special bulk, allowing it to be an offensive switch-in to special Ice-type attacks. For example, Mega Charizard Y can switch in on Life Orb Nidoking's Ice Beam and proceed to force it out. Unfortunately, Mega Charizard Y has a crippling weakness to Stealth Rock, taking 50% HP of damage upon entry. Defog support is necessary when using Mega Charizard Y, as Stealth Rock greatly limits Charizard's ability to switch in and removes its ability to sponge special Ice-type attacks.</p>\n",
+      "comments": "<h1>Other Options</h1>\n<section><h1>Fire</h1>\n<ul>\n<li>Mega Charizard X can run an Adamant nature to have more Attack, but this means it gets outsped by Pokemon like Kyurem-B and at +1 it is outsped by Choice Scarf Excadrill.</li>\n<li>Mega Charizard Y can use a Modest nature to increase its already high Special Attack, but this would mean it misses out on outspeeding Mimikyu and Kyurem-B, which is usually much more valuable.</li>\n<li>Mega Charizard Y can run Defog to clear away Stealth Rock. However, Roost is a much more valuable utility move for Mega Charizard Y.</li>\n</ul>\n<h1>Flying</h1>\n<p>Defog is a possibility over Roost on more offensive teams that choose to forgo using Skarmory or Mantine to Defog. A Modest nature can be used over Timid for additional power, helping Mega Charizard Y mediate the trade-off between power and accuracy. However, outspeeding Pokemon such as Kyurem-B and Mimikyu as well as Speed tying with other base 100s is typically preferred. Mega Charizard Y can use Tailwind to break through offensive teams, though it has difficulty finding an opportunity to use the move safely against these team structures.</p>\n</section><h1>Checks and Counters</h1>\n<section><h1>Fire</h1>\n<p><strong>Defensive Walls</strong>: Both Mega Evolutions of Charizard get walled by specific Pokemon. Mega Charizard X has a hard time against Pokemon like Tapu Fini that resist or are immune to both of its STAB moves. Physically defensive walls such as Mandibuzz, Porygon2, and Hippowdon can all take a Flare Blitz at +1 and Foul Play, status, or Earthquake in return. On the other hand, Mega Charizard Y is hard walled by Chansey, as it barely takes any damage from even Fire Blast under sun and can set up Stealth Rock or status Mega Charizard Y. Defensive Water-types such as Mantine and Pelipper also pose a problem for Mega Charizard Y, as Mantine takes very little damage from Solar Beam and Pelipper can override Drought with Drizzle to ruin Mega Charizard Y's chances of doing any meaningful damage.</p>\n<p><strong>Toxapex</strong>: Toxapex completely walls Mega Charizard Y and Mega Charizard X that don't have Outrage or Earthquake. It can even remove Mega Charizard X's stat boosts with Haze and Toxic it.</p>\n<p><strong>Heatran</strong>: Heatran, in general, is a tough Pokemon for Mega Charizard X without Earthquake, as Heatran can set Stealth Rock and use Earth Power to KO it. While Mega Charizard Y can KO Heatran with Focus Blast, it isn’t a guaranteed KO and the accuracy is risky because Heatran can OHKO back with Stone Edge.</p>\n<p><strong>Entry Hazards</strong>: Entry hazards, specifically Stealth Rock, are a huge problem for both Mega Charizard X and Mega Charizard Y.Stealth Rock wears them both down easily and Mega Charizard X is also susceptible to Spikes.</p>\n<p><strong>Faster Pokemon</strong>: As base 100 Speed isn't anything remarkable, both Mega Charizard X and Mega Charizard Y easily get outsped by a number of different Pokemon. For example, attackers such as Terrakion, Latios, Choice Scarf Excadrill, Choice Scarf Kyurem-B, and Mega Aerodactyl easily KO both Mega Evolutions of Charizard.</p>\n<p><strong>Status</strong>: Status conditions such as Toxic and Thunder Wave can disrupt Mega Charizard X’s and Mega Charizard Y's influence in a battle by putting them on a timer or by reducing their Speed dramatically.</p>\n<h1>Flying</h1>\n<p><strong>Chansey</strong>: Chansey is perhaps the best defensive counter to Mega Charizard Y. It is able to easily take any attack, recover, and use the opportunity to set up Stealth Rock to pressure Mega Charizard Y and its team.</p>\n<p><strong>Stealth Rock</strong>: Charizard and its Mega Evolution are both 4x weak to Stealth Rock, causing it to take 50% HP of damage upon switch in. This limits Mega Charizard Y's ability to effectively wallbreak and makes it more prone to being revenge killed.</p>\n<p><strong>Dragon-types</strong>: Mega Charizard Y has difficulty taking out most Dragon-types, as they resist its Fire-type STAB attacks and Solar Beam. Dragonite, Latios, and Latias additionally resist Focus Blast, making them excellent answers. Dragon-types above base 100 Speed, such as Garchomp, Latios, and Latias, can also revenge kill or otherwise easily force out Mega Charizard Y.</p>\n<p><strong>Revenge Killers</strong>: While Mega Charizard Y has a good Speed tier for a wallbreaker, it is still vulnerable to being revenge killed. The majority of offensive Pokemon, such as Tapu Koko, Terrakion, Latios, and Nihilego, are above base 100 Speed and have the coverage and power to severely damage or OHKO Charizard.</p>\n<p><strong>Opposing Weather Setters</strong>: Rain, sand, and hail halve the power of Solar Beam and cause it to take two turns to charge up. Tyranitar, Hippowdon, and Pelipper prevent Charizard from spamming Solar Beam against their teams for fear of being trapped and KOed. Opposing weather also weakens Charizard's Fire-type STAB attacks.</p>\n<p><strong>Other Specially Defensive Pokemon</strong>: While Mega Charizard Y has the power to break through most walls, extremely specially defensive Pokemon such as Toxapex and Mantine can take its attacks, recover, and retaliate.</p>\n</section>",
+      "movesets": [
+        {
+          "name": "Dragon Dance (Fire)",
+          "description": "<h1>Moves</h1>\n<ul>\n<li>Dragon Dance increases Mega Charizard X's already great Attack and Speed stats and turns it into a fantastic late-game cleaner.</li>\n<li>Outrage is Mega Charizard X's primary STAB move that allows it to OHKO an incredible amount of Pokemon that do not resist it. However, using it locks Mega Charizard X into Outrage for 2-3 turns.</li>\n<li>Alternatively, Dragon Claw can be used as a weaker STAB move to avoid being locked into Outrage. However, the loss of power means Mega Charizard X misses out on beating Toxapex.</li>\n<li>Flare Blitz is Mega Charizard X's secondary STAB move that is primarily used if the opposing Pokemon resists Dragon. However, you should be wary of using Flare Blitz, as its recoil wears down Mega Charizard X quickly.</li>\n<li>Roost allows Mega Charizard X to heal 50% of its health back and lets it set up on a number of weaker walls.</li>\n<li>Earthquake can be used over Roost to hit Heatran and Toxapex if not running Outrage. However, getting back health with Roost is usually much more important.</li>\n</ul>\n<h1>Set Details</h1>\n<ul>\n<li>252 Attack EVs maximize Mega Charizard X's damage output to allow it to sweep more easily.</li>\n<li>252 Speed EVs with a Jolly nature allow Mega Charizard X to outspeed Pokemon like Kyurem-B and Choice Scarf Excadrill after a Dragon Dance and let it Speed tie with other base 100 Speed Pokemon like Manaphy.</li>\n<li>Blaze is preferred over Solar Power, as Solar Power might cause unnecessary damage to Charizard because of Torkoal's Drought.</li>\n<li>Charizardite X allows Charizard to Mega Evolve into Mega Charizard X.</li>\n</ul>\n<h1>Usage Tips</h1>\n<ul>\n<li>Clearing Stealth Rock is a must before sending in Charizard, as it is still 4x weak to Stealth Rock before it Mega Evolves.</li>\n<li>Play smart with Charizard's Mega Evolution. Using Dragon Dance without Mega Evolving against Pokemon that have Ground-type coverage might be better, as the opponent might predict a Mega Evolution and use a Ground-type move.</li>\n<li>It is usually best to Mega Evolve as soon as possible, as this changes its weakness to Stealth Rock from 4x to 2x.</li>\n<li>Try to make use of the fact that Charizard has two Mega Evolutions; opponents expecting Mega Charizard Y may use an Electric-type attack, which can be easily taken advantage of by setting up.</li>\n<li>Try to get rid of Mega Charizard X's checks and counters before setting up with Dragon Dance.</li>\n<li>Capitalize on the fact that Mega Charizard X can force switches and Dragon Dance on that turn.</li>\n<li>Avoid using Flare Blitz recklessly, as Mega Charizard X could get worn down very quickly due to recoil and will be vulnerable to priority attackers.</li>\n<li>Avoid setting up on Pokemon like Porygon2 and Chansey, as they could have a status inflicting move like Toxic or Thunder Wave. Getting hit by either of those moves could be sweep ending.</li>\n<li>If running Earthquake, try to hide it and lure in checks to Mega Charizard X like Toxapex and Heatran.</li>\n</ul>\n<h1>Team Options</h1>\n<ul>\n<li>Torkoal is a fantastic Pokemon for hazard control; not only does it remove Stealth Rock, it can also set up its own Stealth Rock. Torkoal also acts as a great defensive pivot that can tank physical attacks for Mega Charizard X. Torkoal assists Mega Charizard X in setting up, as Torkoal can run Yawn and put the foe to sleep.</li>\n<li>Heatran is another Stealth Rock user that provides additional help for Mega Charizard X by running a wide number of moves including Bloom Doom for Water- and Ground-type Pokemon, Flash Cannon for Rock- and Fairy-types, and Earth Power for opposing Heatran. It can also run a defensive set with Toxic to cripple walls for Mega Charizard X as well as provide a more reliable neutrality to Rock-type moves.</li>\n<li>Rotom-H can run a specially defensive dual screens set with Will-O-Wisp and Volt Switch to improve Mega Charizard X's bulk and bring it in safely. Rotom-H can also run a more offensive set to beat Water-types with a powerful Thunderbolt and Ground-types like Landorus with Hidden Power Ice.</li>\n<li>Infernape is a versatile Pokemon that can run a number of roles to suit Mega Charizard X, including a Choice Scarf set with Earthquake to beat Nihilego, which would otherwise pose a big problem to Mega Charizard X. Infernape can also run a support set with Stealth Rock and Taunt to stop opposing Stealth Rock from being set.</li>\n<li>Volcarona partners with Mega Charizard X as another set up sweeper and can beat Psychic-types with Bug Buzz. These two work well together, as one can set up and weaken the opposing team, while the other can clean up late-game.</li>\n<li>Volcanion functions as a Water immunity and can beat threats like Tyranitar, Heatran, and Hippowdon with Steam Eruption for Mega Charizard X.</li>\n<li>Victini is a fantastic wallbreaker that can weaken opposing walls to let Mega Charizard X clean up later. Victini can also run U-turn to gain momentum and bring in Mega Charizard X safely.</li>\n</ul>\n",
+          "abilities": [
+            "Blaze"
+          ],
+          "items": [
+            "Charizardite X"
+          ],
+          "moveslots": [
+            [
+              "Dragon Dance"
+            ],
+            [
+              "Outrage",
+              "Dragon Claw"
+            ],
+            [
+              "Flare Blitz"
+            ],
+            [
+              "Roost"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 0,
+              "atk": 252,
+              "def": 0,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Jolly"
+          ]
+        },
+        {
+          "name": "Wallbreaker (Fire)",
+          "description": "<h1>Moves</h1>\n<ul>\n<li>Fire Blast is Mega Charizard Y's primary move and does incredible damage under sun.</li>\n<li>Flamethrower is a more accurate but less powerful alternative to Fire Blast. The difference in power is very noticeable, as Flamethrower misses out on 2HKOing Latios.</li>\n<li>Solar Beam allows Mega Charizard Y to deal super effective damage to Water-, Rock-, and Ground-type Pokemon like Keldeo, Alolan Golem, and Seismitoad.</li>\n<li>Focus Blast is used to hit Pokemon like Tyranitar and Heatran super effectively, both of which would otherwise wall Mega Charizard Y.</li>\n<li>Roost allows Mega Charizard Y to heal back 50% of its health and improves its longevity.</li>\n</ul>\n<h1>Set Details</h1>\n<ul>\n<li>252 Special Attack EVs maximize Mega Charizard Y's Special Attack and allow it to hit as hard as possible.</li>\n<li>252 Speed EVs with a Timid nature allow Mega Charizard Y to outspeed Kyurem-B, Hydreigon, and Mimikyu.</li>\n<li>Blaze is the preferred ability, as Solar Power might chip away Charizard's health because of Drought set by Torkoal or opposing Mega Charizard Y.</li>\n<li>Charizardite Y allows Charizard to Mega Evolve into Mega Charizard Y.</li>\n</ul>\n<h1>Usage Tips</h1>\n<ul>\n<li>Mega Charizard Y is best used early-game. Switching Charizard in early-game and Mega Evolving allows Mega Charizard Y to set up sun for the rest of the team and start weakening opposing Pokemon without having to worry about Stealth Rock being up.</li>\n<li>It is a good idea to switch in Mega Charizard Y after a teammate faints to mitigate the chances of Mega Charizard Y taking unnecessary damage.</li>\n<li>Avoid switching in Mega Charizard Y if Stealth Rock is up, as it is heavily pressured into using Roost and playing safely.</li>\n<li>Avoid any status-inflicting Pokemon that can live an attack from Mega Charizard Y. Status conditions such as paralysis and poison severely reduce Mega Charizard Y's use in a match.</li>\n<li>As Mega Charizard Y is usually the main Ground immunity in Fire-type teams and always useful for setting up sun, so don't recklessly allow it to faint.</li>\n<li>Always try to keep Mega Charizard Y above 50% health if there is an opposing Stealth Rock setter, as Stealth Rock going up means Mega Charizard Y cannot be brought in unless it's removed.</li>\n<li>Keeping Mega Charizard Y for sun support late-game with a Choice Scarf-using cleaner like Victini is a good idea because they can easily clean up late-game with a sun-boosted Fire-type move.</li>\n<li>As Mega Charizard Y's damage output heavily relies on sun, always try to make full use of it and avoid attacking outside of sun.</li>\n<li>An example of Drought use would be against Sand Rush or Swift Swim users. Switch in Mega Charizard Y after a teammate faints to eliminate the opposing weather and set sun.</li>\n<li>Be careful of using Solar Beam if there is a weather setter in the opposing team. If an opposing weather setter like Pelipper comes in on a predicted Solar Beam, then Mega Charizard Y will be locked into Solar Beam for a turn and Pelipper can severely weaken it with Scald while taking little damage from Solar Beam.</li>\n<li>On a similar note, try and pivot Mega Charizard Y into them, as Mega Charizard Y will threaten them out most of the time.</li>\n<li>Avoid using Fire Blast recklessly, as it has low PP and a chance to miss. If the opposing Pokemon is severely weakened and can be KOed by Solar Beam, it is better to use Solar Beam to preserve Fire Blast's PP.</li>\n</ul>\n<h1>Team Options</h1>\n<ul>\n<li>Torkoal forms a nice Drought core with Mega Charizard Y that allows sun to almost always be up. Torkoal is also one of Fire’s very few Pokemon that can provide hazard control. Being able to clear away Stealth Rock and even set up its own Stealth Rock, Torkoal is a crucial Pokemon to pair with Mega Charizard Y.</li>\n<li>Heatran provides a solid backbone for Mega Charizard Y because of its incredible number of resistances. Like Torkoal, Heatran can run Stealth Rock. However, it is much more offensive with access to moves like Flash Cannon, Solar Beam, and Earth Power to beat Pokemon that threaten Mega Charizard Y like Tyranitar, opposing Heatran, and Volcanion. On the other hand, Mega Charizard Y acts as a Ground immunity and resists Fighting for Heatran.</li>\n<li>Infernape is another Stealth Rock user that can run an offensive or supporting set depending on the team. Infernape becomes an amazing wallbreaker with a Choice Band, and it can use a Choice Scarf and Earthquake to check Choice Scarf Nihilego. It can also turn into an anti-lead with a Focus Sash.</li>\n<li>Victini works well together with Mega Charizard Y, as it can clean up late-game under Drought from Mega Charizard Y. Victini can also beat Water / Flying types like Gyarados for Mega Charizard Y. In return, Mega Charizard Y can remove Pokemon like Swampert that generally wall Victini.</li>\n<li>Rotom-H provides a resistance to Electric-type moves and can bring Mega Charizard Y in safely through a slow Volt Switch. Rotom-H can also run a defensive set with dual screens to improve Mega Charizard Y's bulk.</li>\n<li>Volcarona appreciates Mega Charizard Y's Drought weakening opposing Water-type moves to allow it to set up easier. Sun also ensures a number of KOs for Volcarona’s Fire Blast such as the OHKO on Kyurem-B.</li>\n</ul>\n",
+          "abilities": [
+            "Blaze"
+          ],
+          "items": [
+            "Charizardite Y"
+          ],
+          "moveslots": [
+            [
+              "Fire Blast",
+              "Flamethrower"
+            ],
+            [
+              "Solar Beam"
+            ],
+            [
+              "Focus Blast"
+            ],
+            [
+              "Roost"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 0,
+              "atk": 252,
+              "def": 0,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Timid"
+          ]
+        },
+        {
+          "name": "Drought Wallbreaker (Flying)",
+          "description": "<h1>Moves</h1>\n<p>Fire Blast is Charizard's most powerful STAB attack. When boosted by Drought, it becomes extremely difficult to switch into and can 2HKO even Pokemon that resist it, such as Latios. Flamethrower can be used over Fire Blast for its perfect accuracy; however, its lower Base Power means that Charizard will lose out on 2HKOs on bulkier Pokemon like Garchomp and Latios. Solar Beam allows Charizard to deal super effective damage to Water- and Rock-types like Azumarill, Manaphy, and Alolan Golem, which resist its Fire-type STAB attacks. Focus Blast is used to deal heavy damage to Tyranitar and Heatran, which otherwise wall this set. Roost allows Charizard to recover off Stealth Rock and chip damage. Roost also allows Charizard to use its good special bulk to reliably switch into special Ice-type attacks.</p>\n<h1>Set Details</h1>\n<p>Blaze is used as Charizard's pre-Mega ability rather than Solar Power to avoid taking damage from opposing sun. 252 Special Attack EVs maximize Charizard's damage output, allowing it to effectively wallbreak. 252 Speed EVs are used with a Timid nature to allow Charizard to outspeed Pokemon such as Kyurem-B and Mimikyu as well as Speed tie with opposing base 100s. Charizardite Y is required for Charizard to Mega Evolve into Mega Charizard Y.</p>\n<h1>Usage Tips</h1>\n<p>If possible, remove Stealth Rock before bringing in Mega Charizard Y to prevent it from being easily revenge killed. Use Mega Charizard Y to wallbreak in the early-game to open up opportunities for Charizard's teammates to sweep late-game. Be careful not to waste Fire Blast's PP, as it is very limited. Use Solar Beam to pick off weakened Pokemon for both PP preservation and perfect accuracy. Use U-turn or Volt Switch from teammates like Landorus-T and Zapdos to bring in Charizard safely, allowing it to pressure the opposing team. Double switches also work in allowing Charizard to apply pressure, though they have more inherent risk. Charizard can also be brought in directly against some special attacks, providing a switch-in to Nidoking's Ice Beam as well as some users of BoltBeam coverage, such as Porygon2. After switching into an attack, it's usually a good idea to use Roost to restore Charizard's longevity. The exception to this would be if getting damage on the opponent's defensive answer to Charizard could secure victory for a teammate—carefully evaluate these scenarios on a case-by-case basis. Mega Charizard Y is reliant on sun for wallbreaking; as such, choose moves carefully when facing opposing weather setters—if Mega Charizard Y uses Solar Beam as an opposing weather setter comes in, it will be unable to switch and can be KOed. Tyranitar, Hippowdon, and Pelipper can remove sun and lock Charizard into a weakened two-turn Solar Beam, using the opportunity to strike Charizard with super effective moves.</p>\n<h1>Team Options</h1>\n<p>Skarmory and Mantine are good supportive partners, able to reliably Defog entry hazards away. Skarmory also has a great matchup against sand teams, while Mantine beats most rain teams, assisting Charizard against opposing weather. Zapdos provides a neutrality to Electric-type attacks and can additionally support Charizard with Defog. Zapdos also offers an answer to some Pokemon that wall Mega Charizard Y, such as Mantine and Toxapex, and can use these Pokemon to set up a Substitute or throw off a Toxic. Alternatively, Zapdos can use a Volt Switch set to bring Mega Charizard Y in safely to wallbreak. Celesteela can handle most Dragon-types for Mega Charizard Y and also has the ability to wear down Chansey with Leech Seed. Togekiss provides additional support against Dragon-types and can cripple Chansey with Trick to assist Charizard. Choice Scarf Togekiss also helps Charizard's matchup against more offensively inclined teams and appreciates Charizard's wallbreaking in cleaning up late-game. Thundurus breaks through Toxapex and Mantine, supports Charizard with Thunder Wave, and can also lure Chansey with mixed sets. Landorus-T provides an immunity to Electric-type attacks, can set up Stealth Rock to weaken Mega Charizard Y's checks, and can also bring in Charizard safely via U-turn. Gliscor is another solid Stealth Rock setter that is additionally able to stallbreak using Taunt. Aerodactyl can be used on hyper offensive teams to set up Stealth Rock and provide support against opposing offensive teams thanks to its high Speed. Landorus makes a good partner, as it pairs with Charizard to apply heavy pressure to defensive teams and can additionally use Stealth Rock. Choice Band Dragonite breaks Mega Charizard Y's best defensive answers and can be difficult for foes to switch into. Dragonite can also use Extreme Speed to sweep weakened teams late-game. Gyarados is a solid Dragon Dance user, able to sweep weakened teams late-game. Salamence is another good Dragon Dance user that benefits from Z-Moves to begin a sweep with Moxie. Mega Charizard Y's wallbreaking can allow Salamence to save its Z-Move to obliterate a check in the middle of a sweep rather than to begin one.</p>\n",
+          "abilities": [
+            "Blaze"
+          ],
+          "items": [
+            "Charizardite Y"
+          ],
+          "moveslots": [
+            [
+              "Fire Blast",
+              "Flamethrower"
+            ],
+            [
+              "Solar Beam"
+            ],
+            [
+              "Focus Blast"
+            ],
+            [
+              "Roost"
+            ]
+          ],
+          "evconfigs": [
+            {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "spa": 252,
+              "spd": 4,
+              "spe": 252
+            }
+          ],
+          "ivconfigs": [],
+          "natures": [
+            "Timid"
+          ]
+        }
+      ]
+    }
+  ]
+}

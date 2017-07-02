@@ -4,9 +4,10 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "dev:stub": "nodemon index.js --api=stub",
+    "dev:stub": "concurrently --kill-others --raw \"dyson stubs 8181\" \"nodemon index.js --api=stub\"",
     "lint": "eslint lib",
-    "prepush": "npm run lint"
+    "prepush": "npm run lint",
+    "stubs": "dyson stubs/ 8181"
   },
   "dependencies": {
     "babel-plugin-transform-async-to-generator": "6.22.0",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "babel-eslint": "7.2.3",
+    "concurrently": "3.5.0",
     "eslint": "4.1.0",
     "eslint-plugin-import": "2.6.0",
     "eslint-plugin-mocha": "4.11.0",
