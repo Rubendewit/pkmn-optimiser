@@ -1,0 +1,718 @@
+{
+  "pokemon": [
+    {
+      "name": "Alakazam",
+      "alts": [
+        {
+          "suffix": "",
+          "hp": 55,
+          "atk": 50,
+          "def": 45,
+          "spa": 135,
+          "spd": 95,
+          "spe": 120,
+          "weight": 48,
+          "height": 1.5,
+          "types": [
+            "Psychic"
+          ],
+          "abilities": [
+            "Inner Focus",
+            "Magic Guard",
+            "Synchronize"
+          ],
+          "formats": [
+            "BL"
+          ]
+        },
+        {
+          "suffix": "Mega",
+          "hp": 55,
+          "atk": 50,
+          "def": 65,
+          "spa": 175,
+          "spd": 95,
+          "spe": 150,
+          "weight": 48,
+          "height": 1.2,
+          "types": [
+            "Psychic"
+          ],
+          "abilities": [
+            "Trace"
+          ],
+          "formats": [
+            "BL"
+          ]
+        }
+      ],
+      "evos": [],
+      "genfamily": [
+        "RB",
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Absol",
+      "alts": [
+        {
+          "suffix": "",
+          "hp": 65,
+          "atk": 130,
+          "def": 60,
+          "spa": 75,
+          "spd": 60,
+          "spe": 75,
+          "weight": 47,
+          "height": 1.2,
+          "types": [
+            "Dark"
+          ],
+          "abilities": [
+            "Justified",
+            "Pressure",
+            "Super Luck"
+          ],
+          "formats": [
+            "RU"
+          ]
+        },
+        {
+          "suffix": "Mega",
+          "hp": 65,
+          "atk": 150,
+          "def": 60,
+          "spa": 115,
+          "spd": 60,
+          "spe": 115,
+          "weight": 49,
+          "height": 1.2,
+          "types": [
+            "Dark"
+          ],
+          "abilities": [
+            "Magic Bounce"
+          ],
+          "formats": [
+            "UU"
+          ]
+        }
+      ],
+      "evos": [],
+      "genfamily": [
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Aerodactyl",
+      "alts": [
+        {
+          "suffix": "",
+          "hp": 80,
+          "atk": 105,
+          "def": 65,
+          "spa": 60,
+          "spd": 75,
+          "spe": 130,
+          "weight": 59,
+          "height": 1.8,
+          "types": [
+            "Rock",
+            "Flying"
+          ],
+          "abilities": [
+            "Pressure",
+            "Rock Head",
+            "Unnerve"
+          ],
+          "formats": [
+            "RU"
+          ]
+        },
+        {
+          "suffix": "Mega",
+          "hp": 80,
+          "atk": 135,
+          "def": 85,
+          "spa": 70,
+          "spd": 95,
+          "spe": 150,
+          "weight": 79,
+          "height": 2.1,
+          "types": [
+            "Rock",
+            "Flying"
+          ],
+          "abilities": [
+            "Tough Claws"
+          ],
+          "formats": [
+            "UU"
+          ]
+        }
+      ],
+      "evos": [],
+      "genfamily": [
+        "RB",
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    }
+  ],
+  "formats": [
+    {
+      "name": "Uber",
+      "shorthand": "Uber",
+      "genfamily": [
+        "RB",
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "OverUsed",
+      "shorthand": "OU",
+      "genfamily": [
+        "RB",
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Little Cup",
+      "shorthand": "LC",
+      "genfamily": [
+        "RB",
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "VGC16",
+      "shorthand": "VGC16",
+      "genfamily": [
+        "XY",
+        "SM"
+      ]
+    }
+  ],
+  "natures": [
+    {
+      "name": "Adamant",
+      "hp": 1,
+      "atk": 1.1,
+      "def": 1,
+      "spa": 0.9,
+      "spd": 1,
+      "spe": 1,
+      "summary": "+Atk, -SpA",
+      "genfamily": [
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Bold",
+      "hp": 1,
+      "atk": 0.9,
+      "def": 1.1,
+      "spa": 1,
+      "spd": 1,
+      "spe": 1,
+      "summary": "+Def, -Atk",
+      "genfamily": [
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Timid",
+      "hp": 1,
+      "atk": 0.9,
+      "def": 1,
+      "spa": 1,
+      "spd": 1,
+      "spe": 1.1,
+      "summary": "+Spe, -Atk",
+      "genfamily": [
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Adaptability",
+      "description": "The Pokemon's STAB modifier becomes 2x.",
+      "genfamily": [
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Aerilate",
+      "description": "Turns all of this Pokemon's Normal-typed attacks into Flying-type and deals 1.3x damage. Does not affect Hidden Power.",
+      "genfamily": [
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Aftermath",
+      "description": "Deals 25% damage when KOed by contact damage.",
+      "genfamily": [
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Air Lock",
+      "description": "Blocks the effects of weather.",
+      "genfamily": [
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Analytic",
+      "description": "Raises the power of all moves by 30% if the wielder moves last.",
+      "genfamily": [
+        "BW",
+        "XY",
+        "SM"
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Absorb",
+      "category": "Special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 25,
+      "description": "Leeches 50% of the damage dealt.",
+      "type": "Grass",
+      "genfamily": [
+        "RB",
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Acid",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "description": "10% chance to lower the target's Defense by one stage.",
+      "type": "Poison",
+      "genfamily": [
+        "RB",
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Acid Armor",
+      "category": "Non-Damaging",
+      "power": 0,
+      "accuracy": 0,
+      "pp": 20,
+      "description": "Boosts the user's Defense by two stages.",
+      "type": "Poison",
+      "genfamily": [
+        "RB",
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Acid Spray",
+      "category": "Special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "description": "Lowers the target's Special Defense by two stages.",
+      "type": "Poison",
+      "genfamily": [
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Acrobatics",
+      "category": "Physical",
+      "power": 55,
+      "accuracy": 100,
+      "pp": 15,
+      "description": "Base Power doubles if the user has no held item.",
+      "type": "Flying",
+      "genfamily": [
+        "BW",
+        "XY",
+        "SM"
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "Bug",
+      "atk_effectives": [
+        [
+          "Bug",
+          1
+        ],
+        [
+          "Dark",
+          2
+        ],
+        [
+          "Dragon",
+          1
+        ],
+        [
+          "Electric",
+          1
+        ],
+        [
+          "Fairy",
+          0.5
+        ],
+        [
+          "Fighting",
+          0.5
+        ],
+        [
+          "Fire",
+          0.5
+        ],
+        [
+          "Flying",
+          0.5
+        ],
+        [
+          "Ghost",
+          0.5
+        ],
+        [
+          "Grass",
+          2
+        ],
+        [
+          "Ground",
+          1
+        ],
+        [
+          "Ice",
+          1
+        ],
+        [
+          "Normal",
+          1
+        ],
+        [
+          "Poison",
+          0.5
+        ],
+        [
+          "Psychic",
+          2
+        ],
+        [
+          "Rock",
+          1
+        ],
+        [
+          "Steel",
+          0.5
+        ],
+        [
+          "Water",
+          1
+        ]
+      ],
+      "genfamily": [
+        "RB",
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Dark",
+      "atk_effectives": [
+        [
+          "Bug",
+          1
+        ],
+        [
+          "Dark",
+          0.5
+        ],
+        [
+          "Dragon",
+          1
+        ],
+        [
+          "Electric",
+          1
+        ],
+        [
+          "Fairy",
+          0.5
+        ],
+        [
+          "Fighting",
+          0.5
+        ],
+        [
+          "Fire",
+          1
+        ],
+        [
+          "Flying",
+          1
+        ],
+        [
+          "Ghost",
+          2
+        ],
+        [
+          "Grass",
+          1
+        ],
+        [
+          "Ground",
+          1
+        ],
+        [
+          "Ice",
+          1
+        ],
+        [
+          "Normal",
+          1
+        ],
+        [
+          "Poison",
+          1
+        ],
+        [
+          "Psychic",
+          2
+        ],
+        [
+          "Rock",
+          1
+        ],
+        [
+          "Steel",
+          1
+        ],
+        [
+          "Water",
+          1
+        ]
+      ],
+      "genfamily": [
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Dragon",
+      "atk_effectives": [
+        [
+          "Bug",
+          1
+        ],
+        [
+          "Dark",
+          1
+        ],
+        [
+          "Dragon",
+          2
+        ],
+        [
+          "Electric",
+          1
+        ],
+        [
+          "Fairy",
+          0
+        ],
+        [
+          "Fighting",
+          1
+        ],
+        [
+          "Fire",
+          1
+        ],
+        [
+          "Flying",
+          1
+        ],
+        [
+          "Ghost",
+          1
+        ],
+        [
+          "Grass",
+          1
+        ],
+        [
+          "Ground",
+          1
+        ],
+        [
+          "Ice",
+          1
+        ],
+        [
+          "Normal",
+          1
+        ],
+        [
+          "Poison",
+          1
+        ],
+        [
+          "Psychic",
+          1
+        ],
+        [
+          "Rock",
+          1
+        ],
+        [
+          "Steel",
+          0.5
+        ],
+        [
+          "Water",
+          1
+        ]
+      ],
+      "genfamily": [
+        "RB",
+        "GS",
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Abomasite",
+      "description": "Mega Evolves Abomasnow.",
+      "genfamily": [
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Absolite",
+      "description": "Mega Evolves Absol.",
+      "genfamily": [
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Absorb Bulb",
+      "description": "Boosts Special Attack of holder if hit by a Water-type attack. One-time use.",
+      "genfamily": [
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Adamant Orb",
+      "description": "Raises the power of Dialga's STAB moves by 20%.",
+      "genfamily": [
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    },
+    {
+      "name": "Aguav Berry",
+      "description": "Restores 1/8 of max HP when at 50% HP or less. One-time use.",
+      "genfamily": [
+        "RS",
+        "DP",
+        "BW",
+        "XY",
+        "SM"
+      ]
+    }
+  ]
+}

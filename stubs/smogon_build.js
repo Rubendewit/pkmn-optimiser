@@ -1,4 +1,4 @@
-const charizard = require('./charizard-smogon');
+const charizard = require('./charizard');
 
 const getResponse = () => {
   return charizard;
@@ -6,7 +6,7 @@ const getResponse = () => {
 
 module.exports = {
   cache: false,
-  path: '/mocks/smogon',
+  path: '/mocks/smogon/build',
   method: 'POST',
   template: (params, query, body) => getResponse(body)
 };
