@@ -1,4 +1,4 @@
-const data = require('./smogon_data');
+const data = require('./smogon_data_dump');
 
 module.exports = {
   cache: false,
