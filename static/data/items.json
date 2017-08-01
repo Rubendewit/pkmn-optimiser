@@ -1,0 +1,2844 @@
+[
+  {
+    "name": "Abomasite",
+    "description": "Mega Evolves Abomasnow.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Absolite",
+    "description": "Mega Evolves Absol.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Absorb Bulb",
+    "description": "Boosts Special Attack of holder if hit by a Water-type attack. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Adamant Orb",
+    "description": "Raises the power of Dialga's STAB moves by 20%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Aerodactylite",
+    "description": "Mega Evolves Aerodactyl.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Aggronite",
+    "description": "Mega Evolves Aggron.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Aguav Berry",
+    "description": "Restores 1/2 of max HP when at 25% or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Air Balloon",
+    "description": "Makes the holder immune to Ground-type attacks. Disappears when holder is hit.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Alakazite",
+    "description": "Mega Evolves Alakazam.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Altarianite",
+    "description": "Mega Evolves Altaria.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Ampharosite",
+    "description": "Mega Evolves Ampharos.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Apicot Berry",
+    "description": "Raises Special Defense by one stage when at 25% HP or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Aspear Berry",
+    "description": "Cures freeze. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Assault Vest",
+    "description": "Raises Special Defense by 50% but prevents holder from using non-damaging moves.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Audinite",
+    "description": "Mega Evolves Audino.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Psychic Memory",
+    "description": "Holder's Multi-Attack is Psychic type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Babiri Berry",
+    "description": "Reduces damage from a super effective Steel-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Banettite",
+    "description": "Mega Evolves Banette.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Beedrillite",
+    "description": "Mega Evolves Beedrill.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Berry",
+    "description": "Restores 10 HP when at 50% HP or less. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Berry Juice",
+    "description": "Restores 20 HP when at 50% HP or less. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Berserk Gene",
+    "description": "Raises Attack but causes confusion. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Big Root",
+    "description": "Increases HP gained from draining moves by 30%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Binding Band",
+    "description": "Increases power of multi-turn trapping moves from 1/8 maximum HP to 1/6 HP.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Bitter Berry",
+    "description": "Cures confusion. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Black Belt",
+    "description": "Raises power of Fighting-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Black Sludge",
+    "description": "Recovers 1/16 of max HP each turn for Poison-types. Damages all other types by 1/8 of max HP each turn.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Black Glasses",
+    "description": "Raises power of Dark-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Blastoisinite",
+    "description": "Mega Evolves Blastoise.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Blazikenite",
+    "description": "Mega Evolves Blaziken.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Blue Orb",
+    "description": "Causes Kyogre to undergo Primal Reversion upon switching in.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Bright Powder",
+    "description": "Raises evasion by 10%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Bug Gem",
+    "description": "Raises the power of a Bug-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Burn Drive",
+    "description": "Changes the type of Techno Blast to Fire.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Cameruptite",
+    "description": "Mega Evolves Camerupt.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Ice Memory",
+    "description": "Holder's Multi-Attack is Ice type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Cell Battery",
+    "description": "Boosts Attack of holder if hit by an Electric-type attack. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Charcoal",
+    "description": "Raises power of Fire-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Charizardite X",
+    "description": "Mega Evolves Charizard into Mega Charizard X.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Charizardite Y",
+    "description": "Mega Evolves Charizard into Mega Charizard Y.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Charti Berry",
+    "description": "Reduces damage from a super effective Rock-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Cheri Berry",
+    "description": "Cures paralysis. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Chesto Berry",
+    "description": "Cures sleep. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Chilan Berry",
+    "description": "Berry blended to make Pokéblocks.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Chill Drive",
+    "description": "Changes the type of Techno Blast to Ice.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Choice Band",
+    "description": "Raises Attack by 50% but locks the holder into one move.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Choice Scarf",
+    "description": "Raises Speed by 50% but locks the holder into one move.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Choice Specs",
+    "description": "Raises Special Attack by 50% but locks the holder into one move.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Chople Berry",
+    "description": "Reduces damage from a super effective Fighting-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Cleanse Tag",
+    "description": "Decreases the encounter rate of wild Pokémon.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Coba Berry",
+    "description": "Reduces damage from a super effective Flying-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Colbur Berry",
+    "description": "Reduces damage from a super effective Dark-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Custap Berry",
+    "description": "Activates at 25% HP. Next move used goes first. One-time use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Damp Rock",
+    "description": "Makes Rain Dance and Drizzle last 8 turns.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Dark Gem",
+    "description": "Raises the power of a Dark-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Deep Sea Scale",
+    "description": "Doubles Clamperl's Special Defense.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Deep Sea Tooth",
+    "description": "Doubles Clamperl's Special Attack.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Destiny Knot",
+    "description": "If the holder becomes infatuated, so does the enemy.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Diancite",
+    "description": "Mega Evolves Diancie.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Douse Drive",
+    "description": "Changes the type of Techno Blast to Water.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Draco Plate",
+    "description": "Raises power of Dragon-type moves by 20%. Pokemon with Multitype become Dragon-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Dragon Fang",
+    "description": "Raises power of Dragon-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Dragon Gem",
+    "description": "Raises the power of a Dragon-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Dread Plate",
+    "description": "Raises power of the holder's Dark-type moves by 20%. Pokemon with Multitype become Dark-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Earth Plate",
+    "description": "Raises power of Ground-type moves by 20%. Pokemon with Multitype become Ground-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Eject Button",
+    "description": "Forces the holder to switch out when it is hit. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Electric Gem",
+    "description": "Raises the power of a Electric-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Enigma Berry",
+    "description": "Pokéblock ingredient. Restores 1/4 of the max HP when hit by a super effective move. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Eviolite",
+    "description": "Boosts Defense and Special Defense of holder by 50% if it is an NFE Pokemon.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Expert Belt",
+    "description": "Raises power of super effective attacks by 20%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Fairy Gem",
+    "description": "Raises the power of a Fairy-type move by 30%. One-time use.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Fighting Gem",
+    "description": "Raises the power of a Fighting-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Figy Berry",
+    "description": "Restores 1/2 of max HP when at 25% or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Fire Gem",
+    "description": "Raises the power of a Fire-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Fist Plate",
+    "description": "Raises power of Fighting-type moves 20%. Pokemon with Multitype become Fighting-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Flame Orb",
+    "description": "Burns the holder.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Flame Plate",
+    "description": "Raises power of Fire-type moves 20%. Pokemon with Multitype become Fire-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Float Stone",
+    "description": "Halves the holder's weight.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Flying Gem",
+    "description": "Raises the power of a Flying-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Focus Band",
+    "description": "Gives an 11.7% chance of surviving a hit with at least 1 HP.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Focus Sash",
+    "description": "Allows holder to survive any one attack. One-time use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Full Incense",
+    "description": "Makes the holder move last.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Galladite",
+    "description": "Mega Evolves Gallade.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Ganlon Berry",
+    "description": "Raises Defense by one stage when at 25% HP or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Garchompite",
+    "description": "Mega Evolves Garchomp.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Gardevoirite",
+    "description": "Mega Evolves Gardevoir.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Gengarite",
+    "description": "Mega Evolves Gengar.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Ghost Gem",
+    "description": "Raises the power of a Ghost-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Glalitite",
+    "description": "Mega Evolves Glalie.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Gold Berry",
+    "description": "Restores 30 HP when at 50% HP or less. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Grass Gem",
+    "description": "Raises the power of a Grass-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Grip Claw",
+    "description": "Makes partial trapping moves last 6 turns.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Griseous Orb",
+    "description": "Raises the power of Giratina's STAB moves 20%. May only be held by Giratina and transforms it into Giratina-O when held. Cannot be removed in battle.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Ground Gem",
+    "description": "Raises the power of a Ground-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Gyaradosite",
+    "description": "Mega Evolves Gyarados.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Haban Berry",
+    "description": "Reduces damage from a super effective Dragon-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Hard Stone",
+    "description": "Raises power of Rock-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Heat Rock",
+    "description": "Makes Sunny Day and Drought last 8 turns.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Heracronite",
+    "description": "Mega Evolves Heracross.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Houndoominite",
+    "description": "Mega Evolves Houndoom.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Iapapa Berry",
+    "description": "Restores 1/2 of max HP when at 25% or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Ice Berry",
+    "description": "Cures burn. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Ice Gem",
+    "description": "Raises the power of a Ice-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Icicle Plate",
+    "description": "Raises power of Ice-type moves 20%. Pokemon with Multitype become Ice-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Icy Rock",
+    "description": "Makes Hail and Snow Warning last 8 turns.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Dragon Memory",
+    "description": "Holder's Multi-Attack is Dragon type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Insect Plate",
+    "description": "Raises power of Bug-type moves by 20%. Pokemon with Multitype become Bug-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Iron Ball",
+    "description": "Reduces Speed by 50%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Iron Plate",
+    "description": "Raises power of Steel-type moves by 20%. Pokemon with Multitype become Steel-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Jaboca Berry",
+    "description": "Makes the attacker take 12.5% damage if it hits the holder with a physical attack. One-time use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Kangaskhanite",
+    "description": "Mega Evolves Kangaskhan.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Kasib Berry",
+    "description": "Reduces damage from a super effective Ghost-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Kebia Berry",
+    "description": "Reduces damage from a super effective Poison-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Kee Berry",
+    "description": "Raises Defense by 1 stage if hit by a physical attack. Single use.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Kelpsy Berry",
+    "description": "Pokéblock ingredient. Plant in loamy soil to grow a Kelpsy plant.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "King's Rock",
+    "description": "Gives moves a 10% flinch chance if they do not have one already.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Lagging Tail",
+    "description": "Makes the holder move last.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Lansat Berry",
+    "description": "Raises critical hit rate by two stages when at 25% HP or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Latiasite",
+    "description": "Mega Evolves Latias.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Latiosite",
+    "description": "Mega Evolves Latios.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Lax Incense",
+    "description": "Raises evasion by 10%.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Leftovers",
+    "description": "Heals 1/16 of max HP each turn.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Leppa Berry",
+    "description": "Restores 10 PP to a move that has run out of PP. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Dark Memory",
+    "description": "Holder's Multi-Attack is Dark type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Liechi Berry",
+    "description": "Raises Attack by one stage when at 25% HP or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Life Orb",
+    "description": "Boosts power by 30% but makes the holder take 10% recoil each turn it attacks.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Light Ball",
+    "description": "Doubles Pikachu's Attack and Special Attack.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Light Clay",
+    "description": "Makes Reflect and Light Screen last 8 turns.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Lopunnite",
+    "description": "Mega Evolves Lopunny.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Lucarionite",
+    "description": "Mega Evolves Lucario.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Lucky Punch",
+    "description": "Raises Chansey's critical hit ratio by two stages.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Lum Berry",
+    "description": "Cures status. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Luminous Moss",
+    "description": "Raises Special Defense by 1 stage if hit by a Water-type attack. Single use.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Lustrous Orb",
+    "description": "Raises power of Palkia's STAB moves by 20%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Macho Brace",
+    "description": "Reduces Speed by 50%. Doubles EVs gained.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Magmarizer",
+    "description": "Evolves Magmar into Magmortar.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Magnet",
+    "description": "Raises power of Electric-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mago Berry",
+    "description": "Restores 1/2 of max HP when at 25% or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mail",
+    "description": "Prevents Trick from working.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Manectite",
+    "description": "Mega Evolves Manectric.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Maranga Berry",
+    "description": "Raises Special Defense by 1 stage if hit by a special attack. Single use.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mawilite",
+    "description": "Mega Evolves Mawile.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Meadow Plate",
+    "description": "Raises power of Grass-type moves 20%. Pokemon with Multitype become Grass-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Medichamite",
+    "description": "Mega Evolves Medicham.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mental Herb",
+    "description": "Removes the effects of infatuation, Taunt, Encore, Torment, Disable, and Cursed Body. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Metagrossite",
+    "description": "Mega Evolves Metagross.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Metal Coat",
+    "description": "Raises power of Steel-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Metal Powder",
+    "description": "Doubles Ditto's Defense.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Metronome",
+    "description": "Boost the power of attacks used consecutively.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mewtwonite X",
+    "description": "Mega Evolves Mewtwo into Mega Mewtwo X.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mewtwonite Y",
+    "description": "Mega Evolves Mewtwo into Mega Mewtwo Y.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Micle Berry",
+    "description": "The next move used will always hit.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mind Plate",
+    "description": "Raises power of Psychic-type moves by 20%. Pokemon with Multitype become Psychic-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mint Berry",
+    "description": "Cures sleep. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Miracle Berry",
+    "description": "Cures status. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Miracle Seed",
+    "description": "Raises power of Grass-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Muscle Band",
+    "description": "Raises power of physical moves by 10%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mystery Berry",
+    "description": "Restores 5 PP to a move that has run out of PP. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mystic Water",
+    "description": "Raises power of Water-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Never-Melt Ice",
+    "description": "Raises power of Ice-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Normal Gem",
+    "description": "Raises the power of a Normal-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Occa Berry",
+    "description": "Reduces damage from a super effective Fire-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Odd Incense",
+    "description": "Raises power of Psychic-type moves by 20%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Oran Berry",
+    "description": "Restores 10 HP when at 50% HP or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "PRZCure Berry",
+    "description": "Cures paralysis. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "PSNCure Berry",
+    "description": "Cures poison. One-time use.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Passho Berry",
+    "description": "Reduces damage from a super effective Water-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Payapa Berry",
+    "description": "Reduces damage from a super effective Psychic-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Pecha Berry",
+    "description": "Cures poison. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Persim Berry",
+    "description": "Cures confusion. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Petaya Berry",
+    "description": "Raises Special Attack by one stage when at 25% HP or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Pidgeotite",
+    "description": "Mega Evolves Pidgeot.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Pink Bow",
+    "description": "Raises power of Normal-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Pinsirite",
+    "description": "Mega Evolves Pinsir.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Pixie Plate",
+    "description": "Raises power of Fairy-type moves by 20%. Pokemon with Multitype become Fairy-type.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Poison Barb",
+    "description": "Raises power of Poison-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Poison Gem",
+    "description": "Raises the power of a Poison-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Polka Dot Bow",
+    "description": "Raises power of Normal moves by 10%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Power Anklet",
+    "description": "Reduces Speed by 50%. Grants 4 Speed EVs when the foe is defeated. Passes down the Speed IV to its offspring.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Power Band",
+    "description": "Reduces Speed by 50%. Grants 4 Special Defense EVs when the foe is defeated. Passes down the Special Defense IV to its offspring.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Power Belt",
+    "description": "Reduces Speed by 50%. Grants 4 Defense EVs when the foe is defeated. Passes down the Defense IV to its offspring.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Power Bracer",
+    "description": "Reduces Speed by 50%. Grants 4 Attack EVs when the foe is defeated. Passes down the Attack IV to its offspring.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Power Herb",
+    "description": "Removes the charge up turn from all moves. One-time use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Power Lens",
+    "description": "Reduces Speed by 50%. Grants 4 Special Attack EVs when the foe is defeated. Passes down the Special Attack IV to its offspring in HGSS.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Power Weight",
+    "description": "Reduces Speed by 50%. Grants 4 HP EVs when the foe is defeated. Passes down the HP IV to its offspring.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Psychic Gem",
+    "description": "Raises the power of a Psychic-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Quick Claw",
+    "description": "Gives the holder a 23.4375% chance to go first.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Quick Powder",
+    "description": "Doubles Ditto's Speed.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Rawst Berry",
+    "description": "Cures burn. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Razor Claw",
+    "description": "Raises critical hit rate by one stage.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Razor Fang",
+    "description": "Gives certain moves a 10% flinch rate.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Red Card",
+    "description": "Forces out the foe out immediately if it attacks the holder. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Red Orb",
+    "description": "Causes Groudon to undergo Primal Reversion upon switching in.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Rindo Berry",
+    "description": "Reduces damage from a super effective Grass-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Rock Gem",
+    "description": "Raises the power of a Rock-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Rock Incense",
+    "description": "Raises power of Rock-type moves by 20%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Rocky Helmet",
+    "description": "Damages the foe for 1/6 of max HP when its attack makes contact.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Rose Incense",
+    "description": "Raises power of Grass-type moves by 20%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Roseli Berry",
+    "description": "Halves damage taken from a super effective Fairy-type attack. Single use.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Fairy Memory",
+    "description": "Holder's Multi-Attack is Fairy type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Rowap Berry",
+    "description": "Makes the attacker take 12.5% damage if it hits the holder with a special attack. One-time use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Sablenite",
+    "description": "Mega Evolves Sableye.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Salamencite",
+    "description": "Mega Evolves Salamence.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Safety Goggles",
+    "description": "Protects the holder from weather-related damage and powder moves.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Salac Berry",
+    "description": "Raises Speed by one stage when at 25% HP or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Sceptilite",
+    "description": "Mega Evolves Sceptile.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Scizorite",
+    "description": "Mega Evolves Scizor.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Scope Lens",
+    "description": "Raises critical hit rate by one stage.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Sea Incense",
+    "description": "Raises power of Water-type moves 20%.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Sharp Beak",
+    "description": "Raises power of Flying-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Sharpedonite",
+    "description": "Mega Evolves Sharpedo.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Shed Shell",
+    "description": "Allows holder to switch out even when trapped.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Shell Bell",
+    "description": "Heals this Pokemon for 1/8 of the damage it does.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Shock Drive",
+    "description": "Changes the type of Techno Blast to Electric.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Shuca Berry",
+    "description": "Reduces damage from a super effective Ground-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Silk Scarf",
+    "description": "Raises power of Normal-type moves by 20%.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Silver Powder",
+    "description": "Raises power of Bug-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Sitrus Berry",
+    "description": "Restores 1/4 of the max HP when at 1/2 HP or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Sky Plate",
+    "description": "Raises power of Flying-type moves by 20%. Pokemon with Multitype become Flying-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Slowbronite",
+    "description": "Mega Evolves Slowbro.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Smooth Rock",
+    "description": "Makes Sandstorm and Sand Stream last 8 turns.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Snowball",
+    "description": "Raises Attack by 1 stage if hit by an Ice-type attack. Single use.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Soft Sand",
+    "description": "Raises power of Ground-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Soul Dew",
+    "description": "Raises power of Latias and Latios's Dragon- and Psychic-type moves by 20%.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Spell Tag",
+    "description": "Raises power of Ghost-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Splash Plate",
+    "description": "Raises power of Water-type moves by 20%. Pokemon with Multitype become Water-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Spooky Plate",
+    "description": "Raises power of Ghost-type moves by 20%. Pokemon with Multitype become Ghost-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Starf Berry",
+    "description": "Raises a stat by two stages when at 25% HP or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Steel Gem",
+    "description": "Raises the power of a Steel-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Steelixite",
+    "description": "Mega Evolves Steelix.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Stick",
+    "description": "Raises Farfetch'd's critical hit ratio by two stages.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Sticky Barb",
+    "description": "Causes damage to holder and attaches to attacker upon contact.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Stone Plate",
+    "description": "Raises power of Rock-type moves by 20%. Pokemon with Multitype become Rock-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Swampertite",
+    "description": "Mega Evolves Swampert.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Tanga Berry",
+    "description": "Reduces damage from a super effective Bug-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Thick Club",
+    "description": "Doubles Cubone's and Marowak's Attack.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Toxic Orb",
+    "description": "Badly poisons the holder.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Toxic Plate",
+    "description": "Raises power of Poison-type moves by 20%. Pokemon with Multitype become Poison-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Twisted Spoon",
+    "description": "Raises power of Psychic-type moves by 20%.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Tyranitarite",
+    "description": "Mega Evolves Tyranitar.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Venusaurite",
+    "description": "Mega Evolves Venusaur.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Wacan Berry",
+    "description": "Reduces damage from a super effective Electric-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Water Gem",
+    "description": "Raises the power of a Water-type move by 30%. One-time use.",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Water Stone",
+    "description": "Evolves Eevee, Poliwhirl, Shellder, and Staryu.",
+    "genfamily": [
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Watmel Berry",
+    "description": "Changes Natural Gift into a 100-Base Power Fire-type attack.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Wave Incense",
+    "description": "Raises power of Water-type moves by 20%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Weakness Policy",
+    "description": "Attack and Special Attack sharply increase when hit super effectively. Single use.",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "White Herb",
+    "description": "Removes stat decreases. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Wide Lens",
+    "description": "Raises accuracy by 10%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Wiki Berry",
+    "description": "Restores 1/2 of max HP when at 25% or less. One-time use.",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Wise Glasses",
+    "description": "Raises damage from special moves by 10%.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Yache Berry",
+    "description": "Reduces damage from a super effective Ice-type attack by 50%. Consumed after use.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Zap Plate",
+    "description": "Raises power of Electric moves by 20%. Pokemon with Multitype become Electric-type.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Zoom Lens",
+    "description": "Raises accuracy by 20% if the holder moves after the target.",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Normalium Z",
+    "description": "If holder has a Normal move, this item allows it to use a Normal Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Firium Z",
+    "description": "If holder has a Fire move, this item allows it to use a Fire Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Waterium Z",
+    "description": "If holder has a Water move, this item allows it to use a Water Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Electrium Z",
+    "description": "If holder has an Electric move, this item allows it to use an Electric Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Grassium Z",
+    "description": "If holder has a Grass move, this item allows it to use a Grass Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Icium Z",
+    "description": "If holder has an Ice move, this item allows it to use an Ice Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Fightinium Z",
+    "description": "If holder has a Fighting move, this item allows it to use a Fighting Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Poisonium Z",
+    "description": "If holder has a Poison move, this item allows it to use a Poison Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Groundium Z",
+    "description": "If holder has a Ground move, this item allows it to use a Ground Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Flyinium Z",
+    "description": "If holder has a Flying move, this item allows it to use a Flying Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Psychium Z",
+    "description": "If holder has a Psychic move, this item allows it to use a Psychic Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Buginium Z",
+    "description": "If holder has a Bug move, this item allows it to use a Bug Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Rockium Z",
+    "description": "If holder has a Rock move, this item allows it to use a Rock Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Ghostium Z",
+    "description": "If holder has a Ghost move, this item allows it to use a Ghost Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Dragonium Z",
+    "description": "If holder has a Dragon move, this item allows it to use a Dragon Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Darkinium Z",
+    "description": "If holder has a Dark move, this item allows it to use a Dark Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Steelium Z",
+    "description": "If holder has a Steel move, this item allows it to use a Steel Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Fairium Z",
+    "description": "If holder has a Fairy move, this item allows it to use a Fairy Z-Move.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Pikanium Z",
+    "description": "If holder is a Pikachu with Volt Tackle, it can use Catastropika.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Decidium Z",
+    "description": "If holder is a Decidueye with Spirit Shackle, it can use Sinister Arrow Raid.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Incinium Z",
+    "description": "If holder is an Incineroar with Darkest Lariat, it can use Malicious Moonsault.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Primarium Z",
+    "description": "If holder is a Primarina with Sparkling Aria, it can use Oceanic Operetta.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Tapunium Z",
+    "description": "If holder is a Tapu with Nature's Madness, it can use Guardian of Alola.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Marshadium Z",
+    "description": "If holder is Marshadow with Spectral Thief, it can use Soul-Stealing 7-Star Strike.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Aloraichium Z",
+    "description": "If holder is an Alolan Raichu with Thunderbolt, it can use Stoked Sparksurfer.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Snorlium Z",
+    "description": "If holder is a Snorlax with Giga Impact, it can use Pulverizing Pancake.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Eevium Z",
+    "description": "If holder is an Eevee with Last Resort, it can use Extreme Evoboost.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Mewnium Z",
+    "description": "If holder is a Mew with Psychic, it can use Genesis Supernova.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Pikashunium Z",
+    "description": "If holder is cap Pikachu with Thunderbolt, it can use 10,000,000 Volt Thunderbolt.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Adrenaline Orb",
+    "description": "Raises holder's Speed by 1 stage if it gets affected by Intimidate. Single use.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Beast Ball",
+    "description": "A special Poke Ball designed to catch Ultra Beasts.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Terrain Extender",
+    "description": "Holder's use of Electric/Grassy/Misty/Psychic Terrain lasts 8 turns instead of 5.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Protective Pads",
+    "description": "Holder's attacks do not make contact with the target.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Electric Seed",
+    "description": "If the terrain is Electric Terrain, raises holder's Defense by 1 stage. Single use.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Psychic Seed",
+    "description": "If the terrain is Psychic Terrain, raises holder's Sp. Def by 1 stage. Single use.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Misty Seed",
+    "description": "If the terrain is Misty Terrain, raises holder's Sp. Def by 1 stage. Single use.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Grassy Seed",
+    "description": "If the terrain is Grassy Terrain, raises holder's Defense by 1 stage. Single use.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Fighting Memory",
+    "description": "Holder's Multi-Attack is Fighting type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Flying Memory",
+    "description": "Holder's Multi-Attack is Flying type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Poison Memory",
+    "description": "Holder's Multi-Attack is Poison type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Ground Memory",
+    "description": "Holder's Multi-Attack is Ground type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Rock Memory",
+    "description": "Holder's Multi-Attack is Rock type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Bug Memory",
+    "description": "Holder's Multi-Attack is Bug type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Ghost Memory",
+    "description": "Holder's Multi-Attack is Ghost type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Steel Memory",
+    "description": "Holder's Multi-Attack is Steel type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Fire Memory",
+    "description": "Holder's Multi-Attack is Fire type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Water Memory",
+    "description": "Holder's Multi-Attack is Water type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Grass Memory",
+    "description": "Holder's Multi-Attack is Grass type.",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Electric Memory",
+    "description": "Holder's Multi-Attack is Electric type.",
+    "genfamily": [
+      "SM"
+    ]
+  }
+]

@@ -1,0 +1,435 @@
+[
+  {
+    "name": "Anything Goes",
+    "shorthand": "AG",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Uber",
+    "shorthand": "Uber",
+    "genfamily": [
+      "RB",
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "OverUsed",
+    "shorthand": "OU",
+    "genfamily": [
+      "RB",
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Borderline",
+    "shorthand": "BL",
+    "genfamily": [
+      "RB",
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "UnderUsed",
+    "shorthand": "UU",
+    "genfamily": [
+      "RB",
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Borderline 2",
+    "shorthand": "BL2",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "RarelyUsed",
+    "shorthand": "RU",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Borderline 3",
+    "shorthand": "BL3",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "NeverUsed",
+    "shorthand": "NU",
+    "genfamily": [
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Borderline 4",
+    "shorthand": "BL4",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "PU",
+    "shorthand": "PU",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Little Cup",
+    "shorthand": "LC",
+    "genfamily": [
+      "RB",
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Doubles OU",
+    "shorthand": "Doubles",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Doubles Ubers",
+    "shorthand": "Doubles Ubers",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Doubles UnderUsed",
+    "shorthand": "Doubles UU",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Smogon Triples",
+    "shorthand": "Smogon Triples",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Battle Spot Singles",
+    "shorthand": "Battle Spot Singles",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Battle Spot Doubles",
+    "shorthand": "Battle Spot Doubles",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Battle Spot Triples",
+    "shorthand": "Battle Spot Triples",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "VGC17",
+    "shorthand": "VGC17",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "VGC16",
+    "shorthand": "VGC16",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "VGC15",
+    "shorthand": "VGC15",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "VGC14",
+    "shorthand": "VGC14",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "VGC12",
+    "shorthand": "VGC12",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "VGC11",
+    "shorthand": "VGC11",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Random Battle",
+    "shorthand": "Random Battle",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Random Doubles Battle",
+    "shorthand": "Random Doubles",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Random Triples Battle",
+    "shorthand": "Random Triples",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Challenge Cup",
+    "shorthand": "CC",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Challenge Cup 1v1",
+    "shorthand": "CC1v1",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Limbo",
+    "shorthand": "Limbo",
+    "genfamily": [
+      "RB",
+      "GS",
+      "RS",
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Seasonal",
+    "shorthand": "Seasonal",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Create-a-Pokemon",
+    "shorthand": "CAP",
+    "genfamily": [
+      "DP",
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Balanced Hackmons",
+    "shorthand": "BH",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "1v1",
+    "shorthand": "1v1",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Monotype",
+    "shorthand": "Monotype",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Tier Shift",
+    "shorthand": "Tier Shift",
+    "genfamily": [
+      "BW",
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Inverse Battle",
+    "shorthand": "Inverse Battle",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Almost Any Ability",
+    "shorthand": "Almost Any Ability",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "STABmons",
+    "shorthand": "STABmons",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Hackmons Cup",
+    "shorthand": "Hackmons Cup",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "2v2 Doubles",
+    "shorthand": "2v2 Doubles",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Averagemons",
+    "shorthand": "Averagemons",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Hidden Type",
+    "shorthand": "Hidden Type",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Middle Cup",
+    "shorthand": "Middle Cup",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Monotype Random Battle",
+    "shorthand": "Monotype Random Battle",
+    "genfamily": [
+      "XY",
+      "SM"
+    ]
+  },
+  {
+    "name": "Mix and Mega",
+    "shorthand": "Mix and Mega",
+    "genfamily": [
+      "SM"
+    ]
+  },
+  {
+    "name": "Sketchmons",
+    "shorthand": "Sketchmons",
+    "genfamily": [
+      "SM"
+    ]
+  }
+]
