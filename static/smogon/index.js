@@ -6,6 +6,7 @@ import natures from './natures.json';
 import pokemon from './pokemon.json';
 import types from './types.json';
 
+// TODO: Find permanent solution for bulk exporting json files
 module.exports = {
   abilities,
   formats,
