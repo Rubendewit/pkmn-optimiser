@@ -10,4 +10,6 @@ export default api => {
 
   api.get('/api/pokemon/:id', cacheSuccesses, getPokemon, getSmogonBuild, sanitizePokemon, send);
 
+  api.get('/api/veekun/:id', cacheSuccesses, getVeekunPokemon, send);
+
 };

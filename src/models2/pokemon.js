@@ -44,6 +44,10 @@ export const getPokemon = (req, res, next) => {
   });
 };
 
+export const getVeekunPokemon = (req, res, next) => {
+  
+};
+
 export const getAllPokemon = (req, res, next) => {
   return wrap(next, () => {
     return res.locals.body = smogon.pokemon;
