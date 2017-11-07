@@ -11,7 +11,7 @@ export default config => {
     streams: []
   });
 
-  if (config.file) {
+  if(config.file) {
     logger.addStream({
       type: 'rotating-file',
       path: config.file,

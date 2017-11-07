@@ -1,36 +1,50 @@
 {
   "name": "pkmn-optimiser",
-  "main": "server.js",
+  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Utilizing Smogon and Veekun to create optimised and noob-friendly build data.",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "dev:stub": "concurrently --kill-others --raw \"dyson stubs 8181\" \"nodemon index.js --api=stub\"",
-    "lint": "eslint lib",
-    "prepush": "npm run lint",
-    "stubs": "dyson stubs/ 8181"
+    "precommit": "lint-staged",
+    "dev": "DEBUG=pkmn:* NODE_ENV=development nodemon index.js"
   },
+  "lint-staged": {
+    "*.{js,json,css}": "prettier --write --config .prettierrc"
+  },
+  "repository": {
+    "url": "https://github.com/Rubendewit/pkmn-optimiser.git",
+    "type": "git"
+  },
+  "license": "MIT",
   "dependencies": {
-    "apicache": "0.8.7",
-    "babel-plugin-transform-async-to-generator": "6.22.0",
+    "apicache": "1.1.0",
     "babel-plugin-transform-runtime": "6.23.0",
+    "babel-polyfill": "6.26.0",
     "babel-preset-es2015-node6": "0.4.0",
     "babel-preset-stage-2": "6.22.0",
-    "babel-register": "6.24.1",
-    "body-parser": "1.17.2",
-    "express": "4.15.3",
-    "fs-extra": "4.0.1",
+    "babel-register": "6.26.0",
+    "boom": "7.1.1",
+    "bunyan": "1.8.12",
+    "bunyan-format": "0.2.1",
+    "debug": "3.1.0",
+    "fs-extra": "4.0.2",
+    "koa": "2.3.0",
+    "koa-bodyparser": "4.2.0",
+    "koa-redis-cache": "3.0.0",
+    "koa-router": "7.2.1",
     "lodash": "4.17.4",
     "minimist": "1.2.0",
-    "oakdex-pokedex": "0.1.2",
-    "request": "2.81.0"
+    "pg-promise": "7.3.1",
+    "request": "2.83.0"
   },
   "devDependencies": {
-    "babel-eslint": "7.2.3",
-    "concurrently": "3.5.0",
-    "eslint": "4.1.0",
-    "eslint-plugin-import": "2.6.0",
-    "eslint-plugin-mocha": "4.11.0",
-    "husky": "0.14.1",
-    "nodemon": "1.11.0"
+    "babel-eslint": "8.0.1",
+    "babel-plugin-transform-async-to-generator": "6.24.1",
+    "babel-watch": "2.0.7",
+    "eslint": "4.10.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-prettier": "2.3.1",
+    "nodemon": "1.12.1",
+    "prettier": "1.7.4",
+    "prettier-eslint": "8.2.1"
   }
 }

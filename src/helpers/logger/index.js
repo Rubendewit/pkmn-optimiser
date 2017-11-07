@@ -1,24 +1,20 @@
-import config from 'config';
+import config from '../../config';
 import uuid from 'uuid';
 import Logger from './logger';
 
 const logger = Logger({
-  name: config.get('app.name'),
+  name: config.name,
   level: 'info',
   file: false,
-  ...config.get('log')
+  ...config.log
 });
-
-const createChildLogger = ({ context, level = 'fatal' }) => logger.child({ context, level });
-
-export const mySqlLogger = createChildLogger(config.get('log.children.mySqlLogger'));
 
 export default () => (ctx, next) => {
   const { req, res } = ctx;
   const startTime = process.hrtime();
 
   // Generate and append request id
-  if (!ctx.id) {
+  if(!ctx.id) {
     ctx.id = uuid.v4();
   }
 
@@ -54,7 +50,7 @@ export default () => (ctx, next) => {
 
   // Log errors
   return next().catch(err => {
-    if (err instanceof Error) {
+    if(err instanceof Error) {
       log.error({ err: err.stack });
     } else {
       log.error({ err });
