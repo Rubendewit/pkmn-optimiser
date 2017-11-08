@@ -1,0 +1,35 @@
+{
+  "app": {
+    "name": "pkmn-optimiser",
+    "port": 3000
+  },
+  "log": {
+    "level": "info",
+    "file": "pkmn-optimiser.log",
+    "capture": false,
+    "children": {
+      "postgresLogger": {
+        "context": "postgres",
+        "level": "debug"
+      },
+      "redisLogger": {
+        "context": "redis",
+        "level": "debug"
+      }
+    }
+  },
+  "postgres": {
+    "host": "postgres",
+    "port": 5432,
+    "database": "veekun",
+    "user": "",
+    "pass": "",
+    "ssl": false
+  },
+  "redis": {
+    "master": { "host": "redis-master", "port": 6379 },
+    "slaves": [
+      { "host": "redis-slave", "port": 6379 }
+    ]
+  }
+}

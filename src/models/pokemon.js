@@ -1,5 +1,3 @@
-export const getPokemonDetail = () => {};
-
 export const getAllPokemon = async () => {
   try {
     // const y = await fetchPokemonstList();
@@ -8,3 +6,5 @@ export const getAllPokemon = async () => {
     throw err;
   }
 };
+
+export const getPokemonDetail = () => {};

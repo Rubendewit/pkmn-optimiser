@@ -1,0 +1,11 @@
+{
+  "environment": "development",
+  "app": {
+    "name": "pkmn-optimiser",
+    "port": 3000
+  },
+  "log": {
+    "file": false,
+    "capture": true
+  }
+}

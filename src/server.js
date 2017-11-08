@@ -5,9 +5,11 @@ import bodyParser from 'koa-bodyparser';
 import router from './routes';
 import errorHandler from './helpers/errorHandler';
 import logger from './helpers/logger';
-import config from './config';
+import config from 'config';
 
 const debug = Debug('pkmn:server');
+
+const appConfig = config.get('app');
 
 debug('Setting up Koa');
 const app = new Koa();
@@ -29,4 +31,4 @@ app
     throw Boom.notFound('Route not found');
   });
 
-export const server = app.listen(config.port, () => debug(`Catching 'mons on Route ${config.port}`));
+export const server = app.listen(appConfig.port, () => debug(`Catching 'mons on Route ${appConfig.port}`));
