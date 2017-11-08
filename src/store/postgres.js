@@ -1,6 +1,6 @@
 import pg from 'pg-promise';
 import Boom from 'boom';
-import config from '../config';
+import config from 'config';
 import { postgresLogger as logger } from '../helpers/logger';
 
 const pgp = pg({
@@ -42,6 +42,7 @@ const connectionString = {
 };
 
 export const db = pgp(connectionString);
-export const execute = ({query, value}) => db.query(query, value).catch(() => {
+export const execute = ({query, value}) => db.query(query, value).catch(e => {
+  console.log(e);
   throw Boom.badImplementation('We\'re experiencing some technical difficulties.');
 });

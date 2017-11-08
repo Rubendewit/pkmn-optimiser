@@ -1,13 +1,14 @@
 import Boom from 'boom';
 import request from '../helpers/request';
+import queries from '../helpers/query';
 import redisClient from './redis/extended-client';
 
-const setOne = (id, data, type) => {
-  redisClient.setItem({id, data, type});
+const setOne = data => {
+  redisClient.setItem(data);
 };
 
 const setMany = (data, type) => {
-  data.forEach(item => setOne(item.id, item, type));
+  data.forEach(item => setOne({id: item.id, data: item, type}));
 };
 
 const requestOrThrow = (requestOptions, redisOptions) => {
@@ -19,12 +20,12 @@ const requestOrThrow = (requestOptions, redisOptions) => {
 };
 
 const getOne = (requestOptions, redisOptions) => {
-  const { type, id } = redisOptions;
+  const { id, type } = redisOptions;
   return redisClient.getItem(id, type).catch(() => requestOrThrow(requestOptions, redisOptions));
 };
 
 const getMany = (requestOptions, redisOptions) => {
-  const { type, ids } = redisOptions;
+  const { ids, type } = redisOptions;
   return redisClient.getItems(ids, type).then(redisItems => {
     const { results, notFound } = redisItems;
     if(notFound.length === 0) {
@@ -37,10 +38,10 @@ const getMany = (requestOptions, redisOptions) => {
 };
 
 export const cache = (redisOptions = {}, body) => {
-  const { type, id, ids } = redisOptions;
+  const { id, ids, type } = redisOptions;
   if(type && body) {
     if(id) {
-      setOne(id, body, type);
+      setOne({id, data: body, type});
     } else if(ids) {
       setMany(body, type);
     }
@@ -52,5 +53,29 @@ export const get = (requestOptions, redisOptions) => {
     return redisOptions.ids ? getMany(requestOptions, redisOptions) : getOne(requestOptions, redisOptions);
   } else {
     return request(requestOptions);
+  }
+};
+
+const getQuery = ({queryName, params, redisOptions}) => {
+  const { id, type } = redisOptions;
+  return redisClient.getItem(id, type).catch(() => doQuery({queryName, params, redisOptions}));
+};
+
+const doQuery = async ({queryName, params, redisOptions}) => {
+  const result = await queries[queryName](params);
+
+  if(redisOptions) {
+    const { id, type } = redisOptions;
+    setOne({id, data: result, type});
+  }
+
+  return result;
+};
+
+export const query = data => {
+  if(data.redisOptions) {
+    return getQuery(data);
+  } else {
+    return doQuery(data);
   }
 };

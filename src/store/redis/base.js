@@ -164,7 +164,7 @@ export default class BaseClient {
     });
   }
 
-  setItem({data, id, type}) {
+  setItem({id, data, type}) {
     return new Promise((resolve, reject) => {
       const node = this.getStorageNode(id, type);
       const stringifiedData = typeof data === 'string' ? data : JSON.stringify(data);
