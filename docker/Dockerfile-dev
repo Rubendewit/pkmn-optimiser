@@ -1,0 +1,18 @@
+FROM node:8.6-alpine
+
+RUN apk add --update bash vim curl
+
+COPY ./docker/.npmrc ~/
+
+ADD ./docker/init.sql /docker-entrypoint-initdb.d/
+
+WORKDIR /app
+
+VOLUME /app
+VOLUME /modules
+
+ENV NODE_ENV development
+
+EXPOSE 3000
+
+CMD ./docker/run-dev.sh

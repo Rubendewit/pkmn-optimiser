@@ -19,10 +19,10 @@
     }
   },
   "postgres": {
-    "host": "postgres",
+    "host": "pkmn-db",
     "port": 5432,
     "database": "veekun",
-    "user": "",
+    "user": "pkmn",
     "pass": "",
     "ssl": false
   },

@@ -3,7 +3,7 @@ import parseArgs from 'minimist';
 const argv = parseArgs(process.argv.slice(2));
 
 const api = argv.api || 'production';
-const port = process.env.PORT || argv.port || 8080;
+const port = process.env.PORT || argv.port || 3000;
 
 const endpointList = {
   stub: {

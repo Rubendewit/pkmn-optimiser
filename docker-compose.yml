@@ -1,0 +1,56 @@
+version: '3'
+
+networks:
+  pkmn-network:
+    driver: bridge
+
+services:
+
+  #
+  # Project
+  #
+
+  pkmn-optimiser:
+    container_name: pkmn-optimiser
+    build:
+      context: ./
+      dockerfile: ./docker/Dockerfile-dev
+    environment:
+      - DEBUG=pkmn:*
+      - NODE_ENV=development
+    ports:
+      - "3000:3000"
+    networks:
+       - pkmn-network
+    volumes:
+      - .:/app
+      - ./modules:/modules
+
+  #
+  # Dev Services
+  #
+
+  pkmn-db:
+    container_name: pkmn-db
+    image: postgres:10.0-alpine
+    environment:
+      POSTGRES_USER: pkmn
+    ports:
+      - "15432:5432"
+    networks:
+      - pkmn-network
+
+  redis-master:
+    image: redis:3
+    ports:
+      - "6379:6379"
+    networks:
+      - pkmn-network
+
+  redis-slave:
+    image: redis:3
+    ports:
+      - "6380:6379"
+    command: redis-server --slaveof redis-master 6379
+    networks:
+      - pkmn-network

@@ -5,7 +5,7 @@
   "description": "Utilizing Smogon and Veekun to create optimised and noob-friendly build data.",
   "scripts": {
     "precommit": "lint-staged",
-    "dev": "DEBUG=pkmn:* NODE_ENV=development nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "lint-staged": {
     "*.{js,json,css}": "prettier --write --config .prettierrc"
@@ -34,6 +34,7 @@
     "lodash": "4.17.4",
     "minimist": "1.2.0",
     "pg-promise": "7.3.1",
+    "redis": "2.8.0",
     "redis-mock": "0.20.0",
     "request": "2.83.0"
   },
