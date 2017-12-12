@@ -1,18 +1,18 @@
-import config from 'config';
 import uuid from 'uuid';
 import Logger from './logger';
+import config from '../../config';
 
 const logger = Logger({
-  name: config.get('app.name'),
+  name: config.app.name,
   level: 'info',
   file: false,
-  ...config.get('log')
+  ...config.log
 });
 
 const createChildLogger = ({ context, level = 'fatal' }) => logger.child({ context, level });
 
-export const postgresLogger = createChildLogger(config.get('log.children.postgresLogger'));
-export const redisLogger = createChildLogger(config.get('log.children.redisLogger'));
+export const postgresLogger = createChildLogger(config.log.children.postgresLogger);
+export const redisLogger = createChildLogger(config.log.children.redisLogger);
 
 export default () => (ctx, next) => {
   const { req, res } = ctx;

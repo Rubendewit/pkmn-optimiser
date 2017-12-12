@@ -9,8 +9,6 @@ import config from 'config';
 
 const debug = Debug('pkmn:server');
 
-const appConfig = config.get('app');
-
 debug('Setting up Koa');
 const app = new Koa();
 
@@ -28,4 +26,4 @@ app.use(router).use(() => {
   throw Boom.notFound('Route not found');
 });
 
-export const server = app.listen(appConfig.port, () => debug(`Catching 'mons on Route ${appConfig.port}`));
+export const server = app.listen(config.app.port, () => debug(`Catching 'mons on Route ${config.app.port}`));

@@ -1,10 +1,9 @@
-import _ from 'lodash';
+import Config from 'config';
 import parseArgs from 'minimist';
 
 const argv = parseArgs(process.argv.slice(2));
 
 const api = argv.api || 'production';
-const port = process.env.PORT || argv.port || 3000;
 
 const endpointList = {
   stub: {
@@ -22,21 +21,23 @@ const {
   PG_PORT: dbPort,
   PG_USERNAME: username,
   PG_PASSWORD: password,
-  PG_DATABASE: database
+  PG_DATABASE: name
 } = process.env;
 
-const dbConfig = {
+const database = {
   host: dbHost,
   port: dbPort,
   username,
   password,
-  database
+  name
 };
 
 const config = {
   api,
-  port,
-  dbConfig,
+  app: Config.get('app'),
+  log: Config.get('log'),
+  redis: Config.get('redis'),
+  database,
   endpoints: endpointList[api]
 };
 

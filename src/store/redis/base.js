@@ -1,16 +1,15 @@
 import Boom from 'boom';
 import Redis from 'redis';
 import RedisMock from 'redis-mock';
-import config from 'config';
+import config from '../../config';
 import { redisLogger } from '../../helpers/logger';
 import _ from 'lodash';
 
 RedisMock.setMaxListeners(20);
 
-const redisConfig = config.get('redis');
+const redisConfig = config.redis;
 
 export default class BaseClient {
-
   masterClient = null;
   slaveClients = [];
   slaveIndex = 0;
@@ -18,7 +17,7 @@ export default class BaseClient {
   storageKeys = null;
 
   redisOptions = {
-    retry_strategy: (options) => {
+    retry_strategy: options => {
       return Math.min(options.attempt * 100, 4000);
     },
     enable_offline_queue: false
@@ -34,12 +33,12 @@ export default class BaseClient {
       logger = redisLogger
     } = options;
 
-    this.masterClient = this.createClient({role: 'master', ...master, db}, master => {
+    this.masterClient = this.createClient({ role: 'master', ...master, db }, master => {
       // Autodetect slaves
       if(autodetectSlaves && _.isEmpty(this.slaveClients)) {
         master.info('replication', (err, res) => {
           this.parseSlaveInfo(res).forEach(({ host, port }) => {
-            this.slaveClients.push(this.createClient({role: 'slave', host, port, db}));
+            this.slaveClients.push(this.createClient({ role: 'slave', host, port, db }));
           });
         });
       }
@@ -47,7 +46,7 @@ export default class BaseClient {
     // Use slaves defined in config
     if(slaves) {
       slaves.forEach(slave => {
-        this.slaveClients.push(this.createClient({role: 'slave', ...slave, db}));
+        this.slaveClients.push(this.createClient({ role: 'slave', ...slave, db }));
       });
     }
 
@@ -59,7 +58,7 @@ export default class BaseClient {
     let client = null;
 
     if(redisConfig.fake) {
-      client = new RedisMock.createClient({fast: true});
+      client = new RedisMock.createClient({ fast: true });
       client.connected = true;
       client.role = options.role;
       client.host = options.host;
@@ -85,15 +84,18 @@ export default class BaseClient {
 
   parseSlaveInfo(res) {
     const lines = res.split('\r\n');
-    return _.map(_.filter(lines, line => {
-      return line.match(/^slave.*state=online/);
-    }), line => {
-      const match = /ip=([0-9].+),port=([0-9]{0,5})/g.exec(line);
-      return {
-        host: match[1],
-        port: match[2]
-      };
-    });
+    return _.map(
+      _.filter(lines, line => {
+        return line.match(/^slave.*state=online/);
+      }),
+      line => {
+        const match = /ip=([0-9].+),port=([0-9]{0,5})/g.exec(line);
+        return {
+          host: match[1],
+          port: match[2]
+        };
+      }
+    );
   }
 
   setConnected(bool) {
@@ -122,7 +124,6 @@ export default class BaseClient {
 
   getItem(id, type) {
     return new Promise((resolve, reject) => {
-
       const slave = this.getSlave();
       if(!slave.connected) {
         return reject('Not connected');
@@ -143,7 +144,6 @@ export default class BaseClient {
 
   getItems(ids, type = 'overview') {
     return new Promise((resolve, reject) => {
-
       const slave = this.getSlave();
       if(!slave.connected) {
         return reject('Not connected');
@@ -164,7 +164,7 @@ export default class BaseClient {
     });
   }
 
-  setItem({id, data, type}) {
+  setItem({ id, data, type }) {
     return new Promise((resolve, reject) => {
       const node = this.getStorageNode(id, type);
       const stringifiedData = typeof data === 'string' ? data : JSON.stringify(data);
@@ -189,12 +189,12 @@ export default class BaseClient {
     });
   }
 
-  delItem({id, type}) {
+  delItem({ id, type }) {
     const node = this.getStorageNode(id, type);
     this.getMaster().del(node);
   }
 
-  exists({id, type}) {
+  exists({ id, type }) {
     return new Promise((resolve, reject) => {
       const slave = this.getSlave();
       if(!slave.connected) {
