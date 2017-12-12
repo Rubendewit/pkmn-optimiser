@@ -1,0 +1,7 @@
+{
+  "redis": {
+    "fake": true,
+    "master": null,
+    "slaves": []
+  }
+}

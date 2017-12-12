@@ -5,7 +5,7 @@
   "description": "Utilizing Smogon and Veekun to create optimised and noob-friendly build data.",
   "scripts": {
     "precommit": "lint-staged",
-    "dev": "DEBUG=pkmn:* NODE_ENV=development nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "lint-staged": {
     "*.{js,json,css}": "prettier --write --config .prettierrc"
@@ -16,24 +16,27 @@
   },
   "license": "MIT",
   "dependencies": {
-    "apicache": "1.1.0",
     "babel-plugin-transform-runtime": "6.23.0",
     "babel-polyfill": "6.26.0",
     "babel-preset-es2015-node6": "0.4.0",
     "babel-preset-stage-2": "6.22.0",
     "babel-register": "6.26.0",
+    "bluebird": "3.5.1",
     "boom": "7.1.1",
     "bunyan": "1.8.12",
     "bunyan-format": "0.2.1",
+    "config": "1.27.0",
     "debug": "3.1.0",
     "fs-extra": "4.0.2",
     "koa": "2.3.0",
     "koa-bodyparser": "4.2.0",
-    "koa-redis-cache": "3.0.0",
+    "koa-combine-routers": "1.0.0",
     "koa-router": "7.2.1",
     "lodash": "4.17.4",
     "minimist": "1.2.0",
     "pg-promise": "7.3.1",
+    "redis": "2.8.0",
+    "redis-mock": "0.20.0",
     "request": "2.83.0"
   },
   "devDependencies": {

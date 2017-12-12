@@ -1,11 +1,10 @@
+import _ from 'lodash';
 import parseArgs from 'minimist';
 
 const argv = parseArgs(process.argv.slice(2));
 
 const api = argv.api || 'production';
-const port = process.env.PORT || argv.port || 8080;
-
-const name = 'pkmn-optimiser';
+const port = process.env.PORT || argv.port || 3000;
 
 const endpointList = {
   stub: {
@@ -18,17 +17,26 @@ const endpointList = {
   }
 };
 
-const log = {
-  'level': 'info',
-  'file': `${name}.log`,
-  'capture': false
+const {
+  PG_HOST: dbHost,
+  PG_PORT: dbPort,
+  PG_USERNAME: username,
+  PG_PASSWORD: password,
+  PG_DATABASE: database
+} = process.env;
+
+const dbConfig = {
+  host: dbHost,
+  port: dbPort,
+  username,
+  password,
+  database
 };
 
 const config = {
-  name,
   api,
   port,
-  log,
+  dbConfig,
   endpoints: endpointList[api]
 };
 
