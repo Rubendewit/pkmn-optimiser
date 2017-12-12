@@ -22,12 +22,6 @@ export const getIds = async () => {
 
   const cached = await getCache(redisOptions);
 
-  if(cached) {
-    console.log('++++++++++++++++');
-    console.log('+++FROM CACHE+++');
-    console.log('++++++++++++++++');
-  }
-
   if(cached) return cached;
 
   return await execute({
