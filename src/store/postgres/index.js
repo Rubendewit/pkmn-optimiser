@@ -1,7 +1,7 @@
 import pg from 'pg-promise';
 import Boom from 'boom';
-import config from 'config';
-import { postgresLogger as logger } from '../helpers/logger';
+import config from '../../config';
+import { postgresLogger as logger } from '../../helpers/logger';
 
 const pgp = pg({
   error: (err, e) => {
@@ -35,14 +35,12 @@ const pgp = pg({
   }
 });
 
-const connectionString = {
-  ...config.get('postgres'),
-  poolSize: 20,
-  idleTimeoutMillis: 10000
-};
+const { dbConfig: c } = config;
+
+const connectionString = `postgres://${c.username}:${c.password}@${c.host}:${c.port}/${c.database}`;
 
 export const db = pgp(connectionString);
-export const execute = ({query, value}) => db.query(query, value).catch(e => {
-  console.log(e);
-  throw Boom.badImplementation('We\'re experiencing some technical difficulties.');
-});
+export const execute = ({ query, value }) =>
+  db.query(query, value).catch(() => {
+    throw Boom.badImplementation('We\'re experiencing some technical difficulties.');
+  });

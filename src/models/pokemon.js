@@ -6,7 +6,7 @@ const getIds = () => {
     queryName: 'fetchIds',
     redisOptions: {
       type: 'overview',
-      id: 'all',
+      id: 'all'
     }
   });
 };

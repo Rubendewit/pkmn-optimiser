@@ -13,11 +13,16 @@ services:
   pkmn-optimiser:
     container_name: pkmn-optimiser
     build:
-      context: ./
-      dockerfile: ./docker/Dockerfile-dev
+      context: ./docker
+      dockerfile: ./Dockerfile-dev
     environment:
       - DEBUG=pkmn:*
       - NODE_ENV=development
+      - PG_HOST
+      - PG_PORT
+      - PG_USERNAME
+      - PG_PASSWORD
+      - PG_DATABASE
     ports:
       - "3000:3000"
     networks:
@@ -32,13 +37,21 @@ services:
 
   pkmn-db:
     container_name: pkmn-db
-    image: postgres:10.0-alpine
-    environment:
-      POSTGRES_USER: pkmn
+    build:
+      context: ./docker/postgres
+      dockerfile: ./Dockerfile
+      args:
+        - PG_HOST
+        - PG_PORT
+        - PG_USERNAME
+        - PG_PASSWORD
+        - PG_DATABASE
     ports:
-      - "15432:5432"
+      - "5432:5432"
     networks:
       - pkmn-network
+    volumes:
+      - ./.env:/var/.env
 
   redis-master:
     image: redis:3

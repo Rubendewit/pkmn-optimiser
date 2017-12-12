@@ -4,8 +4,6 @@ RUN apk add --update bash vim curl
 
 COPY ./docker/.npmrc ~/
 
-ADD ./docker/init.sql /docker-entrypoint-initdb.d/
-
 WORKDIR /app
 
 VOLUME /app

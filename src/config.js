@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import parseArgs from 'minimist';
 
 const argv = parseArgs(process.argv.slice(2));
@@ -16,9 +17,26 @@ const endpointList = {
   }
 };
 
+const {
+  PG_HOST: dbHost,
+  PG_PORT: dbPort,
+  PG_USERNAME: username,
+  PG_PASSWORD: password,
+  PG_DATABASE: database
+} = process.env;
+
+const dbConfig = {
+  host: dbHost,
+  port: dbPort,
+  username,
+  password,
+  database
+};
+
 const config = {
   api,
   port,
+  dbConfig,
   endpoints: endpointList[api]
 };
 
