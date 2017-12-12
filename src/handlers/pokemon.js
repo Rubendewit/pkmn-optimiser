@@ -1,4 +1,4 @@
-import { getAllPokemon, getPokemonDetail } from './models/pokemon';
+import { getAllPokemon, getPokemonDetail } from '../models/pokemon';
 
 export const getAllPokemonHandler = async ctx => {
   ctx.body = await getAllPokemon();
@@ -8,12 +8,5 @@ export const getAllPokemonHandler = async ctx => {
 export const getPokemonDetailHandler = async ctx => {
   // const { params: { id } } = ctx;
   // ctx.body = await getPokemonDetail(id);
-  ctx.body = {id: 1, name: 'Bulbasaur', types: ['Grass', 'Poison'], abilities: ['Overgrow', 'Chlorophyll']};
-};
-
-export const healthCheckHandler = async ctx => {
-  ctx.body = {
-    version: 0,
-    buildNumber: process.env.BUILD_NUMBER || 0
-  };
+  ctx.body = { id: 1, name: 'Bulbasaur', types: ['Grass', 'Poison'], abilities: ['Overgrow', 'Chlorophyll'] };
 };

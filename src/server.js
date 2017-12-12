@@ -24,11 +24,8 @@ debug('Setting up Logging');
 app.use(logger());
 
 debug('Setting up Routes');
-app
-  .use(router.routes())
-  .use(router.allowedMethods())
-  .use(() => {
-    throw Boom.notFound('Route not found');
-  });
+app.use(router).use(() => {
+  throw Boom.notFound('Route not found');
+});
 
 export const server = app.listen(appConfig.port, () => debug(`Catching 'mons on Route ${appConfig.port}`));

@@ -36,7 +36,6 @@ const pgp = pg({
 });
 
 const { dbConfig: c } = config;
-
 const connectionString = `postgres://${c.username}:${c.password}@${c.host}:${c.port}/${c.database}`;
 
 export const db = pgp(connectionString);

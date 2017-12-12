@@ -1,15 +1,4 @@
-// import { fetchIds } from '../helpers/query';
-import { query } from '../store/memory';
-
-const getIds = () => {
-  return query({
-    queryName: 'fetchIds',
-    redisOptions: {
-      type: 'overview',
-      id: 'all'
-    }
-  });
-};
+import { getIds } from '../helpers/query';
 
 export const getAllPokemon = async () => {
   try {
