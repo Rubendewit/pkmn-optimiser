@@ -39,7 +39,7 @@ const { database: db } = config;
 const connectionString = `postgres://${db.username}:${db.password}@${db.host}:${db.port}/${db.name}`;
 
 export const database = pgp(connectionString);
-export const execute = ({ query, value }) =>
-  database.query(query, value).catch(() => {
+export const execute = ({ command, value }) =>
+  database.query(command, value).catch(() => {
     throw Boom.badImplementation('We\'re experiencing some technical difficulties.');
   });
