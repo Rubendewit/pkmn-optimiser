@@ -1,5 +1,5 @@
 import { doQuery } from '../helpers/query';
-import { normalizeSpeciesIds, normalizeSpeciesName } from '../normalizers/species';
+import { normalizeSpeciesIds, normalizeSpeciesName, normalizeSpeciesStats } from '../normalizers/species';
 import { getTypeName } from './types';
 
 export const getSpeciesIds = async () => {
@@ -34,6 +34,24 @@ export const getSpeciesName = async ({ id, languageId }) => {
   };
 
   return await doQuery({ query, redisOptions }).then(normalizeSpeciesName);
+};
+
+export const getSpeciesStats = async ({ id }) => {
+  const redisOptions = {
+    type: 'species',
+    id: 'stats'
+  };
+
+  const query = {
+    command: `
+      SELECT stat_id, base_stat
+      FROM pokemon_stats
+      WHERE pokemon_id = ${id}
+    `,
+    value: { id }
+  };
+
+  return await doQuery({ query, redisOptions }).then(normalizeSpeciesStats);
 };
 
 export const getSpeciesTypes = async ({ id }) => {

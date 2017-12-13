@@ -1,14 +1,20 @@
 import _ from 'lodash';
+import { statMap } from '../constants/stats';
 
-export const normalizeSpeciesIds = result =>
-  _(result)
+export const normalizeSpeciesIds = speciesIds =>
+  _(speciesIds)
     .map(id => id.species_id)
     .sortBy();
 
-export const normalizeSpeciesName = ([result]) => result.name;
+export const normalizeSpeciesName = ([speciesName]) => speciesName.name;
 
-export const normalizeSpeciesTypes = res => {
-  console.log('+++++++++');
-  console.log(res);
-  return res;
+export const normalizeSpeciesStats = speciesStats => {
+  const stats = {};
+
+  _.forEach(speciesStats, stat => {
+    const name = statMap[stat.stat_id];
+    stats[name] = stat.base_stat;
+  });
+
+  return stats;
 };
