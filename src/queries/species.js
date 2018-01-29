@@ -1,5 +1,11 @@
 import { doQuery } from '../helpers/query';
-import { normalizeSpeciesIds, normalizeSpeciesName, normalizeSpeciesStats } from '../normalizers/species';
+import {
+  normalizeSpeciesAbilities,
+  normalizeSpeciesIds,
+  normalizeSpeciesName,
+  normalizeSpeciesStats
+} from '../normalizers/species';
+import { getAbilityName } from './abilities';
 import { getTypeName } from './types';
 
 export const getSpeciesIds = async () => {
@@ -12,10 +18,38 @@ export const getSpeciesIds = async () => {
     command: `
       SELECT DISTINCT species_id
       FROM pokemon
+      LIMIT 15
     `
   };
 
   return await doQuery({ query, redisOptions }).then(normalizeSpeciesIds);
+};
+
+export const getSpeciesAbilities = async ({ id }) => {
+  const redisOptions = {
+    type: 'species',
+    id: 'abilities'
+  };
+
+  const query = {
+    command: `
+      SELECT ability_id, is_hidden, slot
+      FROM pokemon_abilities
+      WHERE pokemon_id = ${id}
+    `
+  };
+
+  return await doQuery({ query, redisOptions })
+    .then(
+      async res =>
+        await Promise.all(
+          res.map(async item => {
+            const abilityName = await getAbilityName({ id: item.ability_id });
+            return { ...item, abilityName };
+          })
+        )
+    )
+    .then(normalizeSpeciesAbilities);
 };
 
 export const getSpeciesName = async ({ id, languageId }) => {

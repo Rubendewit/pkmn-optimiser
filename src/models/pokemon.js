@@ -1,5 +1,12 @@
 import Boom from 'boom';
-import { getIds, getSpeciesIds, getSpeciesName, getSpeciesStats, getSpeciesTypes } from '../queries/species';
+import {
+  getIds,
+  getSpeciesAbilities,
+  getSpeciesIds,
+  getSpeciesName,
+  getSpeciesStats,
+  getSpeciesTypes
+} from '../queries/species';
 
 export const getAllPokemon = async () => {
   try {
@@ -25,7 +32,8 @@ export const fetchPokemonOverviewData = async ({ id, languageId }) => {
     const name = await getSpeciesName({ id, languageId });
     const types = await getSpeciesTypes({ id });
     const stats = await getSpeciesStats({ id });
-    return { id, name, types, stats };
+    const abilities = await getSpeciesAbilities({ id });
+    return { id, name, types, stats, abilities };
   } catch(err) {
     throw Boom.badImplementation(err);
   }
