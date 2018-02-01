@@ -27,17 +27,16 @@ export const normalizeSpeciesIds = speciesIds =>
 export const normalizeSpeciesName = ([speciesName]) => speciesName.name;
 
 export const normalizeSpeciesStats = speciesStats => {
-  const stats = {};
-  let total = 0;
-
-  _.forEach(speciesStats, stat => {
-    const { stat_id, base_stat } = stat;
-    const name = statMap[stat_id];
-    stats[name] = base_stat;
-    total = total + base_stat;
-  });
-
-  stats.total = total;
+  const stats = speciesStats.reduce(
+    (obj, stat) => {
+      const { stat_id, base_stat } = stat;
+      const name = statMap[stat_id];
+      obj[name] = base_stat;
+      obj.total += base_stat;
+      return obj;
+    },
+    { total: 0 }
+  );
 
   return stats;
 };
