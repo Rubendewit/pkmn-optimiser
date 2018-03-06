@@ -1,5 +1,5 @@
-import { languageMap } from '../constants/languages';
 import { getAllPokemon, fetchPokemonOverviewData, getPokemonIds } from '../models/pokemon';
+import { languageMap, defaultLanguage } from '../constants/languages';
 
 export const getAllPokemonHandler = async ctx => {
   ctx.body = await getAllPokemon();
@@ -7,7 +7,7 @@ export const getAllPokemonHandler = async ctx => {
 };
 
 export const getPokemonOverviewHandler = async ctx => {
-  const { language = 'default' } = ctx.headers;
+  const { language = defaultLanguage } = ctx.headers;
   const languageId = languageMap[language];
 
   const ids = await getPokemonIds();

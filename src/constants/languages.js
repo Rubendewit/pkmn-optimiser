@@ -7,6 +7,7 @@ export const languageMap = {
   es: 7,
   it: 8,
   en: 9,
-  cs: 10,
-  default: 9
+  cs: 10
 };
+
+export const defaultLanguage = 'en';
