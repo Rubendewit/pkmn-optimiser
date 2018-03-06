@@ -1,6 +1,7 @@
 import { doQuery } from '../helpers/query';
 import {
   normalizeSpeciesAbilities,
+  normalizeSpeciesForms,
   normalizeSpeciesIds,
   normalizeSpeciesName,
   normalizeSpeciesStats
@@ -8,21 +9,22 @@ import {
 import { getAbilityName } from './abilities';
 import { getTypeName } from './types';
 
-export const getSpeciesIds = async () => {
+const fetchSpeciesForms = async id => {
   const redisOptions = {
     type: 'species',
-    id: 'ids'
+    id: 'forms'
   };
 
   const query = {
     command: `
-      SELECT DISTINCT species_id
+      SELECT id, identifier, "order"
       FROM pokemon
-      LIMIT 15
+      WHERE species_id = ${id}
+      AND is_default = false
     `
   };
 
-  return await doQuery({ query, redisOptions }).then(normalizeSpeciesIds);
+  return await doQuery({ query, redisOptions }).then(normalizeSpeciesForms);
 };
 
 export const getSpeciesAbilities = async ({ id }) => {
@@ -50,6 +52,41 @@ export const getSpeciesAbilities = async ({ id }) => {
         )
     )
     .then(normalizeSpeciesAbilities);
+};
+
+export const getSpeciesForms = async ({ id }) => {
+  const forms = await fetchSpeciesForms(id);
+
+  const augmentedForms = await Promise.all(
+    forms.map(async form => {
+      const { id: formId } = form;
+      const stats = await getSpeciesStats({ id: formId });
+      const types = await getSpeciesTypes({ id: formId });
+      const abilities = await getSpeciesAbilities({ id: formId });
+      return { ...form, types, stats, abilities };
+    })
+  );
+
+  return augmentedForms;
+};
+
+export const getSpeciesIds = async () => {
+  const redisOptions = {
+    type: 'species',
+    id: 'ids'
+  };
+
+  const query = {
+    command: `
+      SELECT DISTINCT species_id
+      FROM pokemon
+      WHERE is_default = true
+      ORDER by species_id asc
+      LIMIT 30
+    `
+  };
+
+  return await doQuery({ query, redisOptions }).then(normalizeSpeciesIds);
 };
 
 export const getSpeciesName = async ({ id, languageId }) => {

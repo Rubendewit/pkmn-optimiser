@@ -19,6 +19,15 @@ export const normalizeSpeciesAbilities = speciesAbilities => {
   return abilities;
 };
 
+export const normalizeSpeciesForms = speciesForms => {
+  const forms = _.map(speciesForms, form => {
+    const { id, identifier: formName, order } = form;
+    return { id, formName, order };
+  });
+
+  return forms;
+};
+
 export const normalizeSpeciesIds = speciesIds =>
   _(speciesIds)
     .map(id => id.species_id)
