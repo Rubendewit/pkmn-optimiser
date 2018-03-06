@@ -10,8 +10,8 @@ services:
   # Project
   #
 
-  pkmn-app:
-    container_name: pkmn-app
+  pkmn-api:
+    container_name: pkmn-api
     build:
       context: .
       dockerfile: ./docker/Dockerfile-dev
