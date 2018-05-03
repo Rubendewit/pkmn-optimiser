@@ -8,7 +8,7 @@ ENV POSTGRES_USER $PG_USERNAME
 ENV POSTGRES_PASSWORD $PG_PASSWORD
 ENV POSTGRES_DB $PG_DATABASE
 
-ADD init.sh /docker-entrypoint-initdb.d
+ADD ./docker/postgres/init.sh /docker-entrypoint-initdb.d
 
 RUN apk update
 RUN apk add sudo git python python-dev py-pip build-base --no-cache
