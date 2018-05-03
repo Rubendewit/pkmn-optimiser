@@ -3,7 +3,7 @@ import { statMap } from '../constants/stats';
 
 export const normalizeSpeciesAbilities = speciesAbilities => {
   const abilities = _.map(speciesAbilities, ability => {
-    const { abilityName, is_hidden: isHidden, slot: order } = ability;
+    const { abilityName, isHidden, order } = ability;
     const name = abilityName
       .split('-')
       .reduce((res, word) => res + ' ' + _.capitalize(word), '')
@@ -18,22 +18,6 @@ export const normalizeSpeciesAbilities = speciesAbilities => {
 
   return abilities;
 };
-
-export const normalizeSpeciesForms = speciesForms => {
-  const forms = _.map(speciesForms, form => {
-    const { id, identifier: formName, order } = form;
-    return { id, formName, order };
-  });
-
-  return forms;
-};
-
-export const normalizeSpeciesIds = speciesIds =>
-  _(speciesIds)
-    .map(id => id.species_id)
-    .sortBy();
-
-export const normalizeSpeciesName = ([speciesName]) => speciesName.name;
 
 export const normalizeSpeciesStats = speciesStats => {
   const stats = speciesStats.reduce(

@@ -8,11 +8,11 @@ export const getAbilityName = async ({ id }) => {
 
   const query = {
     command: `
-      SELECT identifier
+      SELECT identifier AS name
       FROM abilities
       WHERE id = ${id}
     `
   };
 
-  return await doQuery({ query, redisOptions }).then(([ability]) => ability.identifier);
+  return await doQuery({ query, redisOptions }).then(([ability]) => ability.name);
 };

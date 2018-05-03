@@ -1,8 +1,8 @@
 import { doQuery } from '../helpers/query';
 import {
+  normalizeSpecies,
   normalizeSpeciesAbilities,
   normalizeSpeciesForms,
-  normalizeSpeciesIds,
   normalizeSpeciesName,
   normalizeSpeciesStats
 } from '../normalizers/species';
@@ -17,14 +17,33 @@ const fetchSpeciesForms = async id => {
 
   const query = {
     command: `
-      SELECT id, identifier, "order"
+      SELECT id, identifier AS formName, "order"
       FROM pokemon
       WHERE species_id = ${id}
       AND is_default = false
     `
   };
 
-  return await doQuery({ query, redisOptions }).then(normalizeSpeciesForms);
+  return await doQuery({ query, redisOptions });
+};
+
+export const getSpecies = async () => {
+  const redisOptions = {
+    type: 'species',
+    id: 'base'
+  };
+
+  const query = {
+    command: `
+      SELECT DISTINCT species_id AS id, identifier AS name
+      FROM pokemon
+      WHERE is_default = true
+      ORDER by species_id asc
+      LIMIT 30
+    `
+  };
+
+  return await doQuery({ query, redisOptions });
 };
 
 export const getSpeciesAbilities = async ({ id }) => {
@@ -35,7 +54,7 @@ export const getSpeciesAbilities = async ({ id }) => {
 
   const query = {
     command: `
-      SELECT ability_id, is_hidden, slot
+      SELECT ability_id, is_hidden AS isHidden, slot AS "order"
       FROM pokemon_abilities
       WHERE pokemon_id = ${id}
     `
@@ -70,25 +89,6 @@ export const getSpeciesForms = async ({ id }) => {
   return augmentedForms;
 };
 
-export const getSpeciesIds = async () => {
-  const redisOptions = {
-    type: 'species',
-    id: 'ids'
-  };
-
-  const query = {
-    command: `
-      SELECT DISTINCT species_id
-      FROM pokemon
-      WHERE is_default = true
-      ORDER by species_id asc
-      LIMIT 30
-    `
-  };
-
-  return await doQuery({ query, redisOptions }).then(normalizeSpeciesIds);
-};
-
 export const getSpeciesName = async ({ id, languageId }) => {
   const redisOptions = {
     type: 'species',
@@ -104,7 +104,7 @@ export const getSpeciesName = async ({ id, languageId }) => {
     `
   };
 
-  return await doQuery({ query, redisOptions }).then(normalizeSpeciesName);
+  return await doQuery({ query, redisOptions }).then(([speciesName]) => speciesName.name);
 };
 
 export const getSpeciesStats = async ({ id }) => {

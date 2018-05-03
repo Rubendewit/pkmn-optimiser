@@ -8,12 +8,12 @@ export const getTypeName = async ({ id }) => {
 
   const query = {
     command: `
-      SELECT identifier
+      SELECT identifier AS name
       FROM types
       WHERE id = ${id}
     `,
     values: { id }
   };
 
-  return await doQuery({ query, redisOptions }).then(([type]) => type.identifier);
+  return await doQuery({ query, redisOptions }).then(([type]) => type.name);
 };
