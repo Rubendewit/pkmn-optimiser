@@ -1,9 +1,8 @@
 import Router from 'koa-router';
-import { getAllPokemonHandler, getPokemonDetailHandler, getPokemonOverviewHandler } from '../handlers/pokemon';
+import { getPokemonDetailHandler, getPokemonOverviewHandler } from '../handlers/pokemon';
 
 const router = new Router({ prefix: '/api/pokemon' });
 
-router.get('/all', getAllPokemonHandler);
 router.get('/overview', getPokemonOverviewHandler);
 router.get('/:id', getPokemonDetailHandler);
 

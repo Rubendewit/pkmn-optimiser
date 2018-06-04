@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import Debug from 'debug';
-import * as resources from './resources';
+import resources from './resources';
+import { exceptions } from './exceptions';
 import { normalizeName } from '../../normalizers/names';
 
 const debug = Debug('smogon');
@@ -19,38 +20,47 @@ export default class Smogon {
     _.forEach(resources, (resource, resourceKey) => {
       smogon[resourceKey] = {};
       _.forEach(resource, item => {
-        const { shorthand, name } = item;
+        let { shorthand, name } = item;
+
+        if(name in exceptions) {
+          name = exceptions[name]({shorthand, name});
+        }
+
         const key = normalizeName(shorthand || name);
         smogon[resourceKey][key] = item;
       });
     });
   }
 
-  async getAbilities(name) {
+  getAbilities(name) {
     return smogon.abilities[name];
   }
 
-  async getFormats(name) {
+  getFormats(name) {
     return smogon.formats[name];
   }
 
-  async getItems(name) {
+  getItems(name) {
     return smogon.items[name];
   }
 
-  async getMoves(name) {
+  getMoves(name) {
     return smogon.moves[name];
   }
 
-  async getNatures(name) {
+  getNatures(name) {
     return smogon.natures[name];
   }
 
-  async getPokemon(name) {
+  getPokemon(name) {
     return smogon.pokemon[name];
   }
 
-  async getTypes(name) {
+  getTypes(name) {
     return smogon.types[name];
+  }
+
+  getNames() {
+    return Object.keys(smogon.pokemon);
   }
 }
