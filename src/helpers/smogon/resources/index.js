@@ -6,7 +6,7 @@ import natures from './natures.json';
 import pokemon from './pokemon.json';
 import types from './types.json';
 
-module.exports = {
+export default {
   abilities,
   formats,
   items,
@@ -14,4 +14,4 @@ module.exports = {
   natures,
   pokemon,
   types
-}
+};
