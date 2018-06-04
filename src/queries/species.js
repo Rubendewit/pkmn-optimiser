@@ -1,11 +1,5 @@
 import { doQuery } from '../helpers/query';
-import {
-  normalizeSpecies,
-  normalizeSpeciesAbilities,
-  normalizeSpeciesForms,
-  normalizeSpeciesName,
-  normalizeSpeciesStats
-} from '../normalizers/species';
+import { normalizeSpeciesAbilities, normalizeSpeciesStats } from '../normalizers/species';
 import { getAbilityName } from './abilities';
 import { getTypeName } from './types';
 
@@ -54,7 +48,7 @@ export const getSpeciesAbilities = async ({ id }) => {
 
   const query = {
     command: `
-      SELECT ability_id, is_hidden AS isHidden, slot AS "order"
+      SELECT ability_id, is_hidden AS "isHidden", slot AS "order"
       FROM pokemon_abilities
       WHERE pokemon_id = ${id}
     `
